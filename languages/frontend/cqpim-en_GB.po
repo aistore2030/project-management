@@ -1,0 +1,2831 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-01-03 16:34+0000\n"
+"PO-Revision-Date: 2019-01-03 16:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../../includes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_x;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: frontend\n"
+"X-Poedit-SearchPath-1: shortcodes\n"
+"X-Poedit-SearchPath-2: functions/frontend\n"
+
+#: frontend/fe/bug.php:20 frontend/inc/bug.php:21
+#, php-format
+msgid "Bug - %1$s"
+msgstr ""
+
+#: frontend/fe/bug.php:76 frontend/fe/client-dashboard/messages.php:165
+#: frontend/fe/invoice_cd.php:402 frontend/fe/task.php:418
+#: frontend/inc/bug.php:39 frontend/inc/bug.php:93
+#: frontend/inc/client-dashboard/messages.php:164
+#: frontend/inc/invoice_cd.php:121 frontend/inc/project.php:77
+#: frontend/inc/projects/project-contract.php:67
+#: frontend/inc/subscription.php:34 frontend/inc/support.php:34
+#: frontend/inc/task.php:39 frontend/inc/task.php:448
+msgid "ACCESS DENIED"
+msgstr ""
+
+#: frontend/fe/client-dashboard.php:29 frontend/fe/invoice_cd.php:347
+#: frontend/fe/invoice_cd.php:373 frontend/fe/invoice_cd.php:383
+#: frontend/inc/client-dashboard.php:29 frontend/inc/invoice_cd.php:373
+#: frontend/inc/invoice_cd.php:399 frontend/inc/invoice_cd.php:409
+msgid "Invoice"
+msgstr ""
+
+#: frontend/fe/client-dashboard.php:50
+#: frontend/inc/client-dashboard/dashboard.php:10
+msgid "Client Dashboard"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:4
+#: frontend/fe/client-dashboard/tickets.php:7
+#: frontend/inc/client-dashboard.php:76
+#: frontend/inc/client-dashboard/add-ticket.php:6
+#: frontend/inc/client-dashboard/dashboard.php:369
+#: frontend/inc/client-dashboard/ticket-page.php:9
+msgid "Add Support Ticket"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:30
+#: frontend/inc/client-dashboard/add-ticket.php:18
+msgid "Client Dashboard Add Support Ticket Page"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:43
+#: frontend/inc/client-dashboard/add-ticket.php:46
+msgid "Which product do you need help with?"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:45
+#: frontend/inc/client-dashboard/add-ticket.php:48
+msgid "Choose a product..."
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:57
+#: frontend/inc/client-dashboard/add-ticket.php:60
+msgid "Ticket Title:"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:59 frontend/fe/support.php:221
+#: frontend/inc/client-dashboard/add-ticket.php:62 frontend/inc/support.php:233
+msgid "Ticket Priority:"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:61
+#: frontend/fe/client-dashboard/tickets.php:58 frontend/fe/support.php:49
+#: frontend/fe/support.php:223 frontend/fe/task.php:124
+#: frontend/inc/client-dashboard/add-ticket.php:64
+#: frontend/inc/client-dashboard/dashboard.php:404
+#: frontend/inc/client-dashboard/ticket-page.php:69 frontend/inc/support.php:60
+#: frontend/inc/support.php:235 frontend/inc/task.php:143
+msgid "Low"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:62
+#: frontend/fe/client-dashboard/tickets.php:60 frontend/fe/support.php:51
+#: frontend/fe/support.php:224 frontend/fe/task.php:123
+#: frontend/inc/client-dashboard/add-ticket.php:65
+#: frontend/inc/client-dashboard/dashboard.php:406
+#: frontend/inc/client-dashboard/ticket-page.php:71 frontend/inc/support.php:62
+#: frontend/inc/support.php:236 frontend/inc/task.php:142
+msgid "Normal"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:63
+#: frontend/fe/client-dashboard/tickets.php:62 frontend/fe/support.php:53
+#: frontend/fe/support.php:225 frontend/fe/task.php:125
+#: frontend/inc/client-dashboard/add-ticket.php:66
+#: frontend/inc/client-dashboard/dashboard.php:408
+#: frontend/inc/client-dashboard/ticket-page.php:73 frontend/inc/support.php:64
+#: frontend/inc/support.php:237 frontend/inc/task.php:144
+msgid "High"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:64
+#: frontend/fe/client-dashboard/tickets.php:64 frontend/fe/support.php:55
+#: frontend/fe/support.php:226 frontend/fe/task.php:126
+#: frontend/inc/client-dashboard/add-ticket.php:67
+#: frontend/inc/client-dashboard/dashboard.php:410
+#: frontend/inc/client-dashboard/ticket-page.php:75 frontend/inc/support.php:66
+#: frontend/inc/support.php:238 frontend/inc/task.php:145
+msgid "Immediate"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:70
+#: frontend/fe/client-dashboard/client-files.php:53
+#: frontend/fe/projects/project-files-sub.php:72 frontend/fe/support.php:231
+#: frontend/fe/task.php:314 frontend/inc/client-dashboard/add-ticket.php:73
+#: frontend/inc/client-dashboard/client-files.php:53
+#: frontend/inc/projects/project-files-sub.php:72 frontend/inc/support.php:243
+#: frontend/inc/task.php:341
+msgid "Upload Files"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:154
+#: frontend/fe/client-dashboard/form.php:95 frontend/fe/support.php:318
+#: frontend/fe/task.php:304 frontend/inc/client-dashboard/add-ticket.php:158
+#: frontend/inc/client-dashboard/client-settings.php:145
+#: frontend/inc/client-dashboard/quote-form.php:94 frontend/inc/support.php:330
+#: frontend/inc/task.php:331 shortcodes/frontend_lead_form.php:90
+#: shortcodes/frontend_quote.php:103
+msgid "Other:"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:164
+#: frontend/inc/client-dashboard/add-ticket.php:169
+msgid "Details"
+msgstr ""
+
+#: frontend/fe/client-dashboard/add-ticket.php:167
+#: frontend/inc/client-dashboard/add-ticket.php:173
+msgid "Create Ticket"
+msgstr ""
+
+#: frontend/fe/client-dashboard/alerts.php:4
+#: frontend/inc/client-dashboard/dashboard.php:22
+msgid "Alerts"
+msgstr ""
+
+#: frontend/fe/client-dashboard/alerts.php:61
+#, php-format
+msgid "You have %s overdue invoice"
+msgid_plural "You have %s overdue invoices"
+msgstr[0] ""
+msgstr[1] ""
+
+#: frontend/fe/client-dashboard/alerts.php:69
+msgid "You have 1 outstanding invoice"
+msgstr ""
+
+#: frontend/fe/client-dashboard/alerts.php:75
+#, php-format
+msgid "You have %1$s outstanding invoices"
+msgstr ""
+
+#: frontend/fe/client-dashboard/alerts.php:108
+#, php-format
+msgid "You have %s new quote/estimate that requires your attention"
+msgid_plural "You have %s new quotes/estimates that require your attention"
+msgstr[0] ""
+msgstr[1] ""
+
+#: frontend/fe/client-dashboard/alerts.php:141
+#, php-format
+msgid "You have %s contract that requires your attention"
+msgid_plural "You have %s contracts that require your attention"
+msgstr[0] ""
+msgstr[1] ""
+
+#: frontend/fe/client-dashboard/alerts.php:165
+#, php-format
+msgid "You have %s open support ticket that requires your attention"
+msgid_plural "You have %s open support tickets that require your attention"
+msgstr[0] ""
+msgstr[1] ""
+
+#: frontend/fe/client-dashboard/alerts.php:174
+msgid "You have new messages"
+msgstr ""
+
+#: frontend/fe/client-dashboard/alerts.php:174
+msgid "View"
+msgstr ""
+
+#: frontend/fe/client-dashboard/alerts.php:195
+#, php-format
+msgid "You have an updated bug: %1$s"
+msgstr ""
+
+#: frontend/fe/client-dashboard/alerts.php:217
+#: frontend/inc/client-dashboard/dashboard.php:60
+msgid "You have no active alerts."
+msgstr ""
+
+#: frontend/fe/client-dashboard/client-files.php:4 frontend/fe/header.php:115
+#: frontend/inc/client-dashboard.php:74
+#: frontend/inc/client-dashboard/client-files.php:6 frontend/inc/header.php:152
+#: frontend/inc/sidebar.php:37
+msgid "Client Files"
+msgstr ""
+
+#: frontend/fe/client-dashboard/client-files.php:17
+#: frontend/inc/client-dashboard/client-files.php:18
+msgid "Client Dashboard Files Page"
+msgstr ""
+
+#: frontend/fe/client-dashboard/client-files.php:28
+#: frontend/inc/client-dashboard/client-files.php:28
+msgid "There are no client files available to view."
+msgstr ""
+
+#: frontend/fe/client-dashboard/client-files.php:32
+#: frontend/fe/projects/project-files-sub.php:49 frontend/fe/support.php:350
+#: frontend/fe/task.php:399 frontend/inc/client-dashboard/client-files.php:32
+#: frontend/inc/projects/project-files-sub.php:49 frontend/inc/support.php:362
+#: frontend/inc/task.php:429
+msgid "File Name"
+msgstr ""
+
+#: frontend/fe/client-dashboard/client-files.php:32
+#: frontend/fe/projects/project-files-sub.php:49
+#: frontend/inc/client-dashboard/client-files.php:32
+#: frontend/inc/projects/project-files-sub.php:49
+msgid "File Type"
+msgstr ""
+
+#: frontend/fe/client-dashboard/client-files.php:32
+#: frontend/fe/projects/project-files-sub.php:49
+#: frontend/inc/client-dashboard/client-files.php:32
+#: frontend/inc/projects/project-files-sub.php:49
+msgid "Uploaded"
+msgstr ""
+
+#: frontend/fe/client-dashboard/client-files.php:32
+#: frontend/fe/projects/project-files-sub.php:49
+#: frontend/inc/client-dashboard/client-files.php:32
+#: frontend/inc/projects/project-files-sub.php:49
+msgid "Uploaded By"
+msgstr ""
+
+#: frontend/fe/client-dashboard/client-files.php:32
+#: frontend/fe/client-dashboard/projects.php:13
+#: frontend/fe/projects/project-files-sub.php:49 frontend/fe/support.php:350
+#: frontend/fe/task.php:399 frontend/inc/client-dashboard/client-files.php:32
+#: frontend/inc/client-dashboard/projects-page.php:29
+#: frontend/inc/projects/project-files-sub.php:49 frontend/inc/support.php:362
+#: frontend/inc/task.php:429
+msgid "Actions"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:4
+msgid "Manage Contacts"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:18
+#: frontend/inc/client-dashboard/client-contacts.php:18
+msgid "Client Dashboard Contacts Page"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:23
+#: frontend/inc/client-dashboard/client-contacts.php:23
+msgid ""
+"If you would like to give multiple users at your organisation access to your "
+"client dashboard, you can do so here."
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:27
+#: frontend/inc/client-dashboard/client-contacts.php:27
+msgid "You have not added any additional contacts"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:54
+#: frontend/fe/client-dashboard/contacts.php:68
+#: frontend/inc/client-dashboard/client-contacts.php:54
+#: frontend/inc/client-dashboard/client-contacts.php:74
+msgid "Edit Contact"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:55
+#: frontend/fe/client-dashboard/contacts.php:86
+#: frontend/inc/client-dashboard/client-contacts.php:55
+#: frontend/inc/client-dashboard/client-contacts.php:91
+msgid "Contact Name"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:57
+#: frontend/fe/client-dashboard/contacts.php:88
+#: frontend/inc/client-dashboard/client-contacts.php:58
+#: frontend/inc/client-dashboard/client-contacts.php:94
+msgid "Contact Email"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:59
+#: frontend/fe/client-dashboard/contacts.php:90
+#: frontend/inc/client-dashboard/client-contacts.php:61
+#: frontend/inc/client-dashboard/client-contacts.php:97
+msgid "Contact Telephone"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:61 frontend/fe/reset.php:14
+#: frontend/fe/reset.php:28
+#: frontend/inc/client-dashboard/client-contacts.php:64
+#: frontend/inc/reset.php:45 frontend/inc/reset.php:59
+msgid "Reset Password"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:62
+#: frontend/inc/client-dashboard/client-contacts.php:65
+msgid "Enter new password"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:63
+#: frontend/inc/client-dashboard/client-contacts.php:67
+msgid "Confirm new password"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:64
+#: frontend/inc/client-dashboard/client-contacts.php:69
+msgid "Send the contact's new password by email"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:67
+#: frontend/fe/client-dashboard/contacts.php:95
+#: frontend/fe/client-dashboard/envato.php:79
+#: frontend/fe/client-dashboard/messages.php:52
+#: frontend/fe/client-dashboard/messages.php:80
+#: frontend/inc/client-dashboard/add-envato-purchase.php:80
+#: frontend/inc/client-dashboard/client-contacts.php:73
+#: frontend/inc/client-dashboard/client-contacts.php:104
+#: frontend/inc/client-dashboard/messages.php:52
+#: frontend/inc/client-dashboard/messages.php:80
+msgid "Cancel"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:78
+#: frontend/fe/client-dashboard/contacts.php:84
+#: frontend/inc/client-dashboard/client-contacts.php:83
+#: frontend/inc/client-dashboard/client-contacts.php:89
+msgid "Add Contact"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:85
+#: frontend/inc/client-dashboard/client-contacts.php:90
+msgid ""
+"Adding a contact will create a new login and give the user access to the "
+"client dashboard."
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:92
+#: frontend/inc/client-dashboard/client-contacts.php:100
+msgid "Send the contact login details by email"
+msgstr ""
+
+#: frontend/fe/client-dashboard/contacts.php:96
+#: frontend/inc/client-dashboard/client-contacts.php:105
+msgid "Add Client Contact"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:4 frontend/fe/header.php:150
+msgid "My Envato Purchases"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:17
+#: frontend/inc/client-dashboard/add-envato-purchase.php:18
+msgid "Client Dashboard Add Envato Item Page"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:46
+#: frontend/inc/client-dashboard/add-envato-purchase.php:47
+msgid ""
+"You do not have a valid licence for any of our items, or you haven't "
+"registered them"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:50
+#: frontend/inc/client-dashboard/add-envato-purchase.php:51
+msgid "Item ID"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:50
+#: frontend/inc/client-dashboard/add-envato-purchase.php:51
+msgid "Item Name"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:50
+#: frontend/inc/client-dashboard/add-envato-purchase.php:51
+msgid "Purchase Date"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:50
+#: frontend/inc/client-dashboard/add-envato-purchase.php:51
+msgid "Licence"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:50
+#: frontend/inc/client-dashboard/add-envato-purchase.php:51
+msgid "Support Expiry"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:50
+#: frontend/inc/client-dashboard/add-envato-purchase.php:51
+msgid "Purchase Code"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:62
+#: frontend/inc/client-dashboard/add-envato-purchase.php:63
+msgid "EXPIRED"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:71
+#: frontend/fe/client-dashboard/envato.php:80
+#: frontend/inc/client-dashboard/add-envato-purchase.php:71
+#: frontend/inc/client-dashboard/add-envato-purchase.php:81
+msgid "Add Purchase Code"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:75
+#: frontend/inc/client-dashboard/add-envato-purchase.php:76
+msgid "Add Envato Purchase Code"
+msgstr ""
+
+#: frontend/fe/client-dashboard/envato.php:76
+#: frontend/inc/client-dashboard/add-envato-purchase.php:77
+msgid ""
+"Enter the purchase code of the item that you would like to add to your "
+"account."
+msgstr ""
+
+#: frontend/fe/client-dashboard/faq-page.php:4 frontend/fe/header.php:165
+#: frontend/inc/client-dashboard.php:56
+#: frontend/inc/client-dashboard/faq-page.php:6 frontend/inc/faq.php:29
+#: frontend/inc/sidebar.php:76
+msgid "FAQ"
+msgstr ""
+
+#: frontend/fe/client-dashboard/form.php:4 frontend/fe/header.php:145
+#: frontend/inc/client-dashboard.php:66
+#: frontend/inc/client-dashboard/quote-form.php:6 frontend/inc/sidebar.php:82
+msgid "Request a Quote"
+msgstr ""
+
+#: frontend/fe/client-dashboard/form.php:17
+#: frontend/fe/client-dashboard/subs-plan-page.php:10
+#: frontend/inc/client-dashboard/quotes-page.php:10
+#: frontend/inc/client-dashboard/subs-plan-page.php:10
+msgid "Client Dashboard Quotes Page"
+msgstr ""
+
+#: frontend/fe/client-dashboard/form.php:103
+#: frontend/inc/client-dashboard/quote-form.php:102
+#: shortcodes/frontend_quote.php:130
+msgid "Submit Quote Request"
+msgstr ""
+
+#: frontend/fe/client-dashboard/form.php:107
+#: frontend/inc/client-dashboard/quote-form.php:106
+msgid "You have not added any fields to the selected form"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:4
+#: frontend/inc/client-dashboard.php:60
+#: frontend/inc/client-dashboard/invoice-page.php:6
+#: frontend/inc/invoice_cd.php:119 frontend/inc/sidebar.php:79
+msgid "Invoices"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:21
+#: frontend/fe/client-dashboard/invoices.php:97
+#: frontend/fe/projects/project-invoices-sub.php:207
+#: frontend/inc/client-dashboard/dashboard.php:86
+#: frontend/inc/client-dashboard/invoice-page.php:35
+#: frontend/inc/projects/project-invoices-sub.php:205
+msgid "Invoice ID"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:21
+#: frontend/fe/client-dashboard/invoices.php:80
+#: frontend/fe/client-dashboard/invoices.php:97
+#: frontend/fe/client-dashboard/projects.php:11
+#: frontend/fe/client-dashboard/projects.php:117
+#: frontend/fe/client-dashboard/quotes.php:11
+#: frontend/fe/client-dashboard/quotes.php:57
+#: frontend/fe/client-dashboard/tickets.php:69
+#: frontend/inc/client-dashboard/dashboard.php:86
+#: frontend/inc/client-dashboard/dashboard.php:144
+#: frontend/inc/client-dashboard/dashboard.php:174
+#: frontend/inc/client-dashboard/dashboard.php:271
+#: frontend/inc/client-dashboard/dashboard.php:386
+#: frontend/inc/client-dashboard/dashboard.php:415
+#: frontend/inc/client-dashboard/dashboard.php:426
+#: frontend/inc/client-dashboard/invoice-page.php:35
+#: frontend/inc/client-dashboard/invoice-page.php:93
+#: frontend/inc/client-dashboard/projects-page.php:27
+#: frontend/inc/client-dashboard/projects-page.php:132
+#: frontend/inc/client-dashboard/quotes-page.php:26
+#: frontend/inc/client-dashboard/quotes-page.php:76
+#: frontend/inc/client-dashboard/ticket-page.php:80
+msgid "Owner"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:21
+#: frontend/fe/client-dashboard/invoices.php:97
+#: frontend/fe/projects/project-invoices-sub.php:207
+#: frontend/inc/client-dashboard/invoice-page.php:35
+#: frontend/inc/projects/project-invoices-sub.php:205
+msgid "Invoice Date"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:21
+#: frontend/fe/client-dashboard/invoices.php:97 frontend/fe/invoice.php:261
+#: frontend/fe/projects/project-invoices-sub.php:207
+#: frontend/inc/client-dashboard/dashboard.php:86
+#: frontend/inc/client-dashboard/invoice-page.php:35
+#: frontend/inc/invoice.php:261
+#: frontend/inc/projects/project-invoices-sub.php:205
+msgid "Due Date"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:21
+#: frontend/fe/client-dashboard/invoices.php:83
+#: frontend/fe/client-dashboard/invoices.php:97
+#: frontend/fe/projects/project-invoices-sub.php:207
+#: frontend/fe/projects/project-invoices-sub.php:249
+#: frontend/inc/client-dashboard/invoice-page.php:35
+#: frontend/inc/client-dashboard/invoice-page.php:96
+#: frontend/inc/projects/project-invoices-sub.php:205
+#: frontend/inc/projects/project-invoices-sub.php:247
+msgid "Amount"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:21
+#: frontend/fe/client-dashboard/invoices.php:84
+#: frontend/fe/client-dashboard/invoices.php:97
+#: frontend/fe/client-dashboard/projects.php:17
+#: frontend/fe/client-dashboard/projects.php:127
+#: frontend/fe/client-dashboard/quotes.php:14
+#: frontend/fe/client-dashboard/quotes.php:60
+#: frontend/fe/client-dashboard/tickets.php:40
+#: frontend/fe/client-dashboard/tickets.php:73
+#: frontend/fe/client-dashboard/tickets.php:80
+#: frontend/fe/projects/project-invoices-sub.php:207
+#: frontend/inc/client-dashboard/dashboard.php:86
+#: frontend/inc/client-dashboard/dashboard.php:146
+#: frontend/inc/client-dashboard/dashboard.php:178
+#: frontend/inc/client-dashboard/dashboard.php:279
+#: frontend/inc/client-dashboard/dashboard.php:308
+#: frontend/inc/client-dashboard/dashboard.php:345
+#: frontend/inc/client-dashboard/invoice-page.php:35
+#: frontend/inc/client-dashboard/invoice-page.php:97
+#: frontend/inc/client-dashboard/projects-page.php:33
+#: frontend/inc/client-dashboard/projects-page.php:142
+#: frontend/inc/client-dashboard/quotes-page.php:29
+#: frontend/inc/client-dashboard/quotes-page.php:79
+#: frontend/inc/client-dashboard/ticket-page.php:51
+#: frontend/inc/client-dashboard/ticket-page.php:84
+#: frontend/inc/projects/project-invoices-sub.php:205
+msgid "Status"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:51
+#: frontend/fe/client-dashboard/invoices.php:62 frontend/fe/invoice.php:289
+#: frontend/fe/invoice2.php:186 frontend/fe/invoice3.php:202
+#: frontend/fe/invoice_cd.php:222
+#: frontend/inc/client-dashboard/dashboard.php:118
+#: frontend/inc/client-dashboard/invoice-page.php:64
+#: frontend/inc/client-dashboard/invoice-page.php:75
+#: frontend/inc/invoice.php:289 frontend/inc/invoice2.php:186
+#: frontend/inc/invoice3.php:195 frontend/inc/invoice_cd.php:248
+msgid "Due on Receipt"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:60
+#: frontend/fe/projects/project-invoices-sub.php:234
+#: frontend/fe/projects/project-milestones-sub.php:62
+#: frontend/fe/projects/project-milestones-sub.php:143
+#: frontend/fe/projects/project-milestones-sub.php:220
+#: frontend/inc/client-dashboard/invoice-page.php:73
+#: frontend/inc/projects/project-invoices-sub.php:232
+#: frontend/inc/projects/project-milestones-sub.php:62
+#: frontend/inc/projects/project-milestones-sub.php:143
+#: frontend/inc/projects/project-milestones-sub.php:220
+msgid "OVERDUE"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:66
+#: frontend/fe/client-dashboard/projects.php:97
+#: frontend/fe/client-dashboard/quotes.php:49
+#: frontend/inc/client-dashboard/dashboard.php:133
+#: frontend/inc/client-dashboard/dashboard.php:250
+#: frontend/inc/client-dashboard/dashboard.php:336
+#: frontend/inc/client-dashboard/invoice-page.php:79
+#: frontend/inc/client-dashboard/projects-page.php:110
+#: frontend/inc/client-dashboard/quotes-page.php:68
+msgid "New"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:68
+#: frontend/inc/client-dashboard/dashboard.php:135
+#: frontend/inc/client-dashboard/invoice-page.php:81
+msgid "Outstanding"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:72
+#: frontend/fe/projects/project-invoices-sub.php:243
+#: frontend/inc/client-dashboard/invoice-page.php:85
+#: frontend/inc/projects/project-invoices-sub.php:241
+msgid "PAID"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:79
+#: frontend/fe/client-dashboard/tickets.php:40
+#: frontend/fe/client-dashboard/tickets.php:80
+#: frontend/fe/projects/project-invoices-sub.php:246
+#: frontend/inc/client-dashboard/dashboard.php:143
+#: frontend/inc/client-dashboard/invoice-page.php:92
+#: frontend/inc/client-dashboard/ticket-page.php:51
+#: frontend/inc/projects/project-invoices-sub.php:244
+msgid "ID"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:81 frontend/fe/invoice.php:259
+#: frontend/fe/projects/project-invoices-sub.php:247
+#: frontend/inc/client-dashboard/invoice-page.php:94
+#: frontend/inc/invoice.php:259
+#: frontend/inc/projects/project-invoices-sub.php:245
+msgid "Date"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:82
+#: frontend/fe/projects/project-invoices-sub.php:248
+#: frontend/inc/client-dashboard/dashboard.php:145
+#: frontend/inc/client-dashboard/invoice-page.php:95
+#: frontend/inc/projects/project-invoices-sub.php:246
+msgid "Due"
+msgstr ""
+
+#: frontend/fe/client-dashboard/invoices.php:90
+#: frontend/fe/client-dashboard/invoices.php:100
+msgid "You do not have any invoices to show."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:10
+#: frontend/inc/client-dashboard/messages.php:10
+msgid "Client Dashboard Messages Page"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:25
+#: frontend/inc/client-dashboard/messages.php:25
+#: frontend/inc/client-dashboard/messages.php:366
+msgid "Search for team member name..."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:48
+#: frontend/fe/client-dashboard/messages.php:107
+#: frontend/inc/client-dashboard/messages.php:48
+#: frontend/inc/client-dashboard/messages.php:107
+msgid "New Conversation"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:51
+#: frontend/fe/client-dashboard/messages.php:79
+#: frontend/inc/client-dashboard/messages.php:51
+#: frontend/inc/client-dashboard/messages.php:79
+msgid "Send"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:56
+#: frontend/inc/client-dashboard/messages.php:56
+msgid "Recipients:"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:58
+#: frontend/inc/client-dashboard/messages.php:58
+msgid "Subject:"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:59
+#: frontend/fe/client-dashboard/messages.php:84
+#: frontend/inc/client-dashboard/messages.php:59
+#: frontend/inc/client-dashboard/messages.php:84
+msgid "Message:"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:61
+#: frontend/fe/client-dashboard/messages.php:86
+#: frontend/inc/client-dashboard/messages.php:61
+#: frontend/inc/client-dashboard/messages.php:86
+msgid "Attachments:"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:76
+#: frontend/inc/client-dashboard/messages.php:76
+msgid "Reply to Conversation"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:103
+#: frontend/inc/client-dashboard/messages.php:103
+msgid "My Messages"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:113
+#: frontend/inc/client-dashboard/messages.php:113
+msgid "The conversation was successfully deleted."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:119
+#: frontend/inc/client-dashboard/messages.php:119
+msgid "The conversation was successfully created."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:125
+#: frontend/inc/client-dashboard/messages.php:125
+msgid "You have been removed from the conversation."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:131
+#: frontend/inc/client-dashboard/messages.php:131
+msgid "The user has been removed."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:137
+#: frontend/inc/client-dashboard/messages.php:137
+msgid "The user has been added."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:143
+#: frontend/inc/client-dashboard/messages.php:142
+msgid "You do not have any messages."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:188
+#: frontend/inc/client-dashboard/messages.php:187
+msgid "Reply"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:189
+#: frontend/inc/client-dashboard/messages.php:188
+msgid "Leave"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:191
+#: frontend/inc/client-dashboard/messages.php:190
+msgid "Delete"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:195
+#: frontend/inc/client-dashboard/messages.php:194
+msgid "Delete Conversation"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:196
+#: frontend/inc/client-dashboard/messages.php:195
+msgid ""
+"This conversation and all messages will be permanently deleted. Are you sure?"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:198
+#: frontend/inc/client-dashboard/messages.php:197
+msgid "Leave Conversation"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:199
+#: frontend/inc/client-dashboard/messages.php:198
+msgid "Are you sure you want to leave the conversation?"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:201
+#: frontend/inc/client-dashboard/messages.php:200
+msgid "Remove User"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:202
+#: frontend/inc/client-dashboard/messages.php:201
+msgid "Choose which user you would like to remove and click Remove User."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:210
+#: frontend/inc/client-dashboard/messages.php:209
+msgid "Add User"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:211
+#: frontend/inc/client-dashboard/messages.php:210
+msgid "Search for a user to add to the conversation."
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:248
+#: frontend/inc/client-dashboard/messages.php:247
+msgid "Attachments"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:251
+#: frontend/inc/client-dashboard/messages.php:250
+msgid "Download"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:260
+#: frontend/inc/client-dashboard/messages.php:259
+#, php-format
+msgid "Posted by %1$s on %2$s"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:265
+#: frontend/inc/client-dashboard/messages.php:264
+msgid "Seen by:"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:277
+#: frontend/inc/client-dashboard/messages.php:276
+msgid "Sent via email"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:291
+#: frontend/inc/client-dashboard/messages.php:290
+msgid "Subject"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:292
+#: frontend/fe/client-dashboard/quotes.php:13
+#: frontend/fe/client-dashboard/quotes.php:59
+#: frontend/fe/client-dashboard/tickets.php:40
+#: frontend/fe/client-dashboard/tickets.php:71
+#: frontend/fe/client-dashboard/tickets.php:80
+#: frontend/inc/client-dashboard/messages.php:291
+#: frontend/inc/client-dashboard/quotes-page.php:28
+#: frontend/inc/client-dashboard/quotes-page.php:78
+#: frontend/inc/client-dashboard/ticket-page.php:51
+#: frontend/inc/client-dashboard/ticket-page.php:82
+msgid "Created"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:293
+#: frontend/fe/client-dashboard/tickets.php:72
+#: frontend/inc/client-dashboard/dashboard.php:417
+#: frontend/inc/client-dashboard/messages.php:292
+#: frontend/inc/client-dashboard/ticket-page.php:83
+msgid "Updated"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:294
+#: frontend/inc/client-dashboard/messages.php:293
+msgid "Members"
+msgstr ""
+
+#: frontend/fe/client-dashboard/messages.php:295
+#: frontend/inc/client-dashboard/messages.php:294
+msgid "Stamp"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:4
+#: frontend/inc/client-dashboard.php:54
+#: frontend/inc/client-dashboard/projects-page.php:20
+#: frontend/inc/project.php:75 frontend/inc/projects/project-contract.php:65
+#: frontend/inc/sidebar.php:71
+msgid "Projects"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:12
+#: frontend/fe/client-dashboard/projects.php:118
+#: frontend/fe/client-dashboard/quotes.php:12
+#: frontend/fe/client-dashboard/quotes.php:58
+#: frontend/fe/client-dashboard/tickets.php:68
+#: frontend/fe/projects/project-files-sub.php:60
+#: frontend/fe/projects/project-milestones-sub.php:38
+#: frontend/fe/projects/project-milestones-sub.php:79
+#: frontend/fe/projects/project-milestones-sub.php:160
+#: frontend/fe/projects/project-milestones-sub.php:237
+#: frontend/inc/client-dashboard/dashboard.php:175
+#: frontend/inc/client-dashboard/dashboard.php:272
+#: frontend/inc/client-dashboard/dashboard.php:307
+#: frontend/inc/client-dashboard/dashboard.php:344
+#: frontend/inc/client-dashboard/dashboard.php:414
+#: frontend/inc/client-dashboard/projects-page.php:28
+#: frontend/inc/client-dashboard/projects-page.php:133
+#: frontend/inc/client-dashboard/quotes-page.php:27
+#: frontend/inc/client-dashboard/quotes-page.php:77
+#: frontend/inc/client-dashboard/ticket-page.php:79
+#: frontend/inc/projects/project-files-sub.php:60
+#: frontend/inc/projects/project-milestones-sub.php:38
+#: frontend/inc/projects/project-milestones-sub.php:79
+#: frontend/inc/projects/project-milestones-sub.php:160
+#: frontend/inc/projects/project-milestones-sub.php:237
+msgid "Title"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:14
+#: frontend/fe/client-dashboard/projects.php:124
+#: frontend/inc/client-dashboard/dashboard.php:176
+#: frontend/inc/client-dashboard/dashboard.php:273
+#: frontend/inc/client-dashboard/projects-page.php:30
+#: frontend/inc/client-dashboard/projects-page.php:139
+msgid "Progress"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:15
+#: frontend/fe/client-dashboard/projects.php:125
+#: frontend/inc/client-dashboard/projects-page.php:31
+#: frontend/inc/client-dashboard/projects-page.php:140
+msgid "Open Tasks"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:16
+#: frontend/inc/client-dashboard/projects-page.php:32
+msgid "Days Until Launch"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:99
+#: frontend/inc/client-dashboard/dashboard.php:252
+#: frontend/inc/client-dashboard/projects-page.php:112
+msgid "Awaiting Contracts"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:102
+#: frontend/fe/client-dashboard/projects.php:105
+#: frontend/fe/projects/project-milestones-sub.php:151
+#: frontend/fe/projects/project-milestones-sub.php:228 frontend/fe/task.php:112
+#: frontend/inc/client-dashboard/dashboard.php:255
+#: frontend/inc/client-dashboard/dashboard.php:258
+#: frontend/inc/client-dashboard/projects-page.php:115
+#: frontend/inc/client-dashboard/projects-page.php:118
+#: frontend/inc/projects/project-milestones-sub.php:151
+#: frontend/inc/projects/project-milestones-sub.php:228
+#: frontend/inc/task.php:131
+msgid "In Progress"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:108
+#: frontend/inc/client-dashboard/dashboard.php:261
+#: frontend/inc/client-dashboard/projects-page.php:121
+msgid "Signed Off"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:111
+#: frontend/inc/client-dashboard/dashboard.php:264
+#: frontend/inc/client-dashboard/projects-page.php:124
+msgid "Closed"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:120
+#: frontend/inc/client-dashboard/dashboard.php:275
+#: frontend/inc/client-dashboard/projects-page.php:135
+msgid "Contract"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:120 frontend/fe/header.php:185
+#: frontend/inc/client-dashboard/dashboard.php:275
+#: frontend/inc/client-dashboard/projects-page.php:135
+#: frontend/inc/sidebar.php:104 frontend/inc/sidebar.php:128
+msgid "View Contract"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:126
+#: frontend/inc/client-dashboard/projects-page.php:141
+msgid "Days to Launch"
+msgstr ""
+
+#: frontend/fe/client-dashboard/projects.php:135
+#: frontend/inc/client-dashboard/projects-page.php:150
+msgid "You do not have any current or past Projects"
+msgstr ""
+
+#: frontend/fe/client-dashboard/quotes.php:4
+msgid "Quotes/Estimates"
+msgstr ""
+
+#: frontend/fe/client-dashboard/quotes.php:47
+#: frontend/inc/client-dashboard/dashboard.php:334
+#: frontend/inc/client-dashboard/quotes-page.php:66
+msgid "Not Sent"
+msgstr ""
+
+#: frontend/fe/client-dashboard/quotes.php:52
+#: frontend/inc/client-dashboard/dashboard.php:339
+#: frontend/inc/client-dashboard/quotes-page.php:71
+msgid "Accepted"
+msgstr ""
+
+#: frontend/fe/client-dashboard/quotes.php:67
+#: frontend/inc/client-dashboard/quotes-page.php:86
+msgid "You do not have any current or past quotes"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:4
+msgid "My Profile"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:17
+#: frontend/inc/client-dashboard/client-settings.php:18
+msgid "Client Dashboard Settings Page"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:40 frontend/fe/login.php:12
+#: frontend/fe/register.php:15 frontend/fe/reset.php:13
+#: frontend/inc/client-dashboard/client-settings.php:52
+#: frontend/inc/login.php:52 frontend/inc/register.php:55
+#: frontend/inc/reset.php:44 shortcodes/frontend_quote.php:42
+#: shortcodes/frontend_register.php:31
+msgid "Email Address"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:42
+#: frontend/inc/client-dashboard/client-settings.php:54
+#: shortcodes/frontend_quote.php:38 shortcodes/frontend_register.php:27
+msgid "Telephone"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:44
+#: frontend/inc/client-dashboard/client-settings.php:56
+msgid "Display Name"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:46 frontend/fe/register.php:18
+#: frontend/inc/client-dashboard/client-settings.php:59
+#: frontend/inc/register.php:58 shortcodes/frontend_quote.php:26
+#: shortcodes/frontend_register.php:15
+msgid "Company Name"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:48
+#: frontend/inc/client-dashboard/client-settings.php:61
+msgid "Company Address"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:50
+#: frontend/inc/client-dashboard/client-settings.php:63
+msgid "Company Postcode"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:52
+#: frontend/inc/client-dashboard/client-settings.php:156
+msgid "Change Password"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:53 frontend/fe/reset.php:26
+#: frontend/inc/client-dashboard/client-settings.php:157
+#: frontend/inc/reset.php:57
+msgid "New Password"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:55
+#: frontend/inc/client-dashboard/client-settings.php:159
+msgid "Repeat New Password"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:57
+#: frontend/inc/client-dashboard/client-settings.php:198
+msgid "Email Notification Preferences"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:58
+#: frontend/inc/client-dashboard/client-settings.php:199
+msgid "Tasks"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:71
+#: frontend/inc/client-dashboard/client-settings.php:214
+msgid "Disable all task notification emails."
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:73
+#: frontend/inc/client-dashboard/client-settings.php:216
+msgid "Only notify me if a task has a new comment added."
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:75
+#: frontend/fe/client-dashboard/tickets.php:4
+#: frontend/inc/client-dashboard.php:58
+#: frontend/inc/client-dashboard/client-settings.php:218
+#: frontend/inc/client-dashboard/ticket-page.php:6 frontend/inc/sidebar.php:73
+#: frontend/inc/support.php:32
+msgid "Support Tickets"
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:76
+#: frontend/inc/client-dashboard/client-settings.php:219
+msgid "Disable all ticket notification emails."
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:78
+#: frontend/inc/client-dashboard/client-settings.php:221
+msgid "Only notify me if a ticket has a new comment added."
+msgstr ""
+
+#: frontend/fe/client-dashboard/settings.php:84
+#: frontend/inc/client-dashboard/client-settings.php:236
+msgid "Update Settings"
+msgstr ""
+
+#: frontend/fe/client-dashboard/subs-page.php:10
+#: frontend/inc/client-dashboard/subs-page.php:10
+msgid "Client Dashboard Subscriptions Page"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:40
+#: frontend/fe/client-dashboard/tickets.php:80 frontend/fe/support.php:92
+#: frontend/inc/client-dashboard/dashboard.php:386
+#: frontend/inc/client-dashboard/dashboard.php:426
+#: frontend/inc/client-dashboard/ticket-page.php:51
+#: frontend/inc/support.php:103
+msgid "Ticket Title"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:40
+#: frontend/fe/client-dashboard/tickets.php:80
+#: frontend/inc/client-dashboard/ticket-page.php:51
+msgid "Ticket Owner"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:40
+#: frontend/fe/client-dashboard/tickets.php:70
+#: frontend/fe/client-dashboard/tickets.php:80
+#: frontend/inc/client-dashboard/dashboard.php:386
+#: frontend/inc/client-dashboard/dashboard.php:416
+#: frontend/inc/client-dashboard/dashboard.php:426
+#: frontend/inc/client-dashboard/ticket-page.php:51
+#: frontend/inc/client-dashboard/ticket-page.php:81
+msgid "Priority"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:40
+#: frontend/fe/client-dashboard/tickets.php:80 frontend/fe/support.php:100
+#: frontend/inc/client-dashboard/dashboard.php:386
+#: frontend/inc/client-dashboard/dashboard.php:426
+#: frontend/inc/client-dashboard/ticket-page.php:51
+#: frontend/inc/support.php:111
+msgid "Last Updated"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:46 frontend/fe/support.php:40
+#: frontend/fe/support.php:214 frontend/inc/client-dashboard/dashboard.php:392
+#: frontend/inc/client-dashboard/ticket-page.php:57 frontend/inc/support.php:51
+#: frontend/inc/support.php:226
+msgid "Open"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:48 frontend/fe/support.php:42
+#: frontend/fe/support.php:215 frontend/inc/client-dashboard/dashboard.php:394
+#: frontend/inc/client-dashboard/ticket-page.php:59 frontend/inc/support.php:53
+#: frontend/inc/support.php:227
+msgid "Resolved"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:50
+#: frontend/fe/projects/project-milestones-sub.php:68
+#: frontend/fe/projects/project-milestones-sub.php:149
+#: frontend/fe/projects/project-milestones-sub.php:226
+#: frontend/fe/support.php:44 frontend/fe/support.php:216
+#: frontend/fe/task.php:114 frontend/inc/client-dashboard/dashboard.php:396
+#: frontend/inc/client-dashboard/ticket-page.php:61
+#: frontend/inc/projects/project-milestones-sub.php:68
+#: frontend/inc/projects/project-milestones-sub.php:149
+#: frontend/inc/projects/project-milestones-sub.php:226
+#: frontend/inc/support.php:55 frontend/inc/support.php:228
+#: frontend/inc/task.php:133
+msgid "On Hold"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:52 frontend/fe/support.php:46
+#: frontend/fe/support.php:217 frontend/inc/client-dashboard/dashboard.php:398
+#: frontend/inc/client-dashboard/ticket-page.php:63 frontend/inc/support.php:57
+#: frontend/inc/support.php:229
+msgid "Awaiting Response"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:67 frontend/fe/support.php:86
+#: frontend/inc/client-dashboard/ticket-page.php:78 frontend/inc/support.php:97
+msgid "Ticket ID"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:84
+msgid "No open support tickets found"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:86
+msgid "No resolved support tickets found"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:94
+#: frontend/inc/client-dashboard/ticket-page.php:97
+msgid "View Open Tickets"
+msgstr ""
+
+#: frontend/fe/client-dashboard/tickets.php:97
+#: frontend/inc/client-dashboard/ticket-page.php:99
+msgid "View Resolved Tickets"
+msgstr ""
+
+#: frontend/fe/faq.php:16 frontend/inc/faq.php:15
+#, php-format
+msgid "FAQ - %1$s"
+msgstr ""
+
+#: frontend/fe/header.php:47 frontend/inc/header.php:84
+#: frontend/inc/sidebar.php:13
+msgid "(Main Contact)"
+msgstr ""
+
+#: frontend/fe/header.php:52 frontend/fe/header.php:62
+#: frontend/inc/header.php:89 frontend/inc/header.php:99
+msgid "Notifications"
+msgstr ""
+
+#: frontend/fe/header.php:76 frontend/inc/header.php:113
+msgid "Clear Notification"
+msgstr ""
+
+#: frontend/fe/header.php:83 frontend/inc/header.php:120
+msgid "You do not have any notifications"
+msgstr ""
+
+#: frontend/fe/header.php:87 frontend/inc/header.php:124
+msgid "Mark All as Read"
+msgstr ""
+
+#: frontend/fe/header.php:88 frontend/inc/header.php:125
+msgid "Clear All Read"
+msgstr ""
+
+#: frontend/fe/header.php:89 frontend/inc/header.php:126
+msgid "Clear All"
+msgstr ""
+
+#: frontend/fe/header.php:97 frontend/fe/header.php:194
+#: frontend/inc/client-dashboard.php:70 frontend/inc/header.php:134
+#: frontend/inc/sidebar.php:19 frontend/inc/sidebar.php:66
+#: frontend/inc/sidebar.php:113 frontend/inc/sidebar.php:137
+msgid "Messages"
+msgstr ""
+
+#: frontend/fe/header.php:109 frontend/inc/header.php:146
+#: frontend/inc/sidebar.php:31
+msgid "Edit my Profile"
+msgstr ""
+
+#: frontend/fe/header.php:122 frontend/inc/client-dashboard.php:72
+#: frontend/inc/client-dashboard/client-contacts.php:6
+#: frontend/inc/header.php:159 frontend/inc/sidebar.php:44
+msgid "Contacts"
+msgstr ""
+
+#: frontend/fe/header.php:135 frontend/fe/header.php:167
+#: frontend/inc/header.php:172 frontend/inc/sidebar.php:57
+msgid "Log Out"
+msgstr ""
+
+#: frontend/fe/header.php:143 frontend/inc/bug.php:37
+#: frontend/inc/client-dashboard.php:52 frontend/inc/client-dashboard.php:54
+#: frontend/inc/client-dashboard.php:56 frontend/inc/client-dashboard.php:58
+#: frontend/inc/client-dashboard.php:60 frontend/inc/client-dashboard.php:62
+#: frontend/inc/client-dashboard.php:64 frontend/inc/client-dashboard.php:66
+#: frontend/inc/client-dashboard.php:68 frontend/inc/client-dashboard.php:70
+#: frontend/inc/client-dashboard.php:72 frontend/inc/client-dashboard.php:74
+#: frontend/inc/client-dashboard.php:76 frontend/inc/client-dashboard.php:78
+#: frontend/inc/client-dashboard.php:80 frontend/inc/faq.php:29
+#: frontend/inc/invoice_cd.php:119 frontend/inc/project.php:75
+#: frontend/inc/projects/project-contract.php:65
+#: frontend/inc/quotes/quote-page.php:3 frontend/inc/sidebar.php:64
+#: frontend/inc/subscription.php:32 frontend/inc/support.php:32
+#: frontend/inc/task.php:37
+msgid "Dashboard"
+msgstr ""
+
+#: frontend/fe/header.php:181 frontend/fe/projects/project-info-sub.php:22
+#: frontend/inc/projects/project-info-sub.php:22 frontend/inc/sidebar.php:100
+#: frontend/inc/sidebar.php:124
+msgid "Project Information"
+msgstr ""
+
+#: frontend/fe/header.php:187 frontend/inc/sidebar.php:106
+#: frontend/inc/sidebar.php:130
+msgid "Updates & Progress"
+msgstr ""
+
+#: frontend/fe/header.php:188
+#: frontend/fe/projects/project-milestones-sub.php:22
+#: frontend/inc/projects/project-milestones-sub.php:22
+#: frontend/inc/sidebar.php:107 frontend/inc/sidebar.php:131
+msgid "Milestones & Tasks"
+msgstr ""
+
+#: frontend/fe/header.php:192
+#: frontend/inc/client-dashboard/client-settings.php:226
+#: frontend/inc/sidebar.php:111 frontend/inc/sidebar.php:135
+msgid "Bugs"
+msgstr ""
+
+#: frontend/fe/header.php:195 frontend/inc/sidebar.php:114
+#: frontend/inc/sidebar.php:138
+msgid "Files"
+msgstr ""
+
+#: frontend/fe/header.php:197 frontend/inc/sidebar.php:116
+#: frontend/inc/sidebar.php:140
+msgid "Costs & Invoices"
+msgstr ""
+
+#: frontend/fe/header.php:199 frontend/inc/sidebar.php:118
+#: frontend/inc/sidebar.php:142
+msgid "Costs"
+msgstr ""
+
+#: frontend/fe/header.php:206 frontend/inc/client-dashboard.php:87
+msgid "Payment Successful."
+msgstr ""
+
+#: frontend/fe/header.php:206 frontend/inc/client-dashboard.php:87
+msgid "Your payment has been accepted, thank you."
+msgstr ""
+
+#: frontend/fe/header.php:211 frontend/inc/client-dashboard.php:92
+msgid "Payment Declined."
+msgstr ""
+
+#: frontend/fe/invoice.php:68 frontend/fe/invoice2.php:78
+#: frontend/fe/invoice3.php:78 frontend/fe/invoice_cd.php:56
+#: frontend/inc/invoice.php:68 frontend/inc/invoice2.php:78
+#: frontend/inc/invoice3.php:70 frontend/inc/invoice_cd.php:55
+msgid "N/A"
+msgstr ""
+
+#: frontend/fe/invoice.php:107 frontend/fe/invoice2.php:117
+#: frontend/fe/invoice3.php:117 frontend/fe/invoice_cd.php:95
+#: frontend/inc/invoice.php:107 frontend/inc/invoice2.php:117
+#: frontend/inc/invoice3.php:109 frontend/inc/invoice_cd.php:94
+#, php-format
+msgid "Invoice - %1$s"
+msgstr ""
+
+#: frontend/fe/invoice.php:121 frontend/fe/invoice3.php:166
+#: frontend/inc/invoice.php:121 frontend/inc/invoice3.php:158
+msgid "INVOICE"
+msgstr ""
+
+#: frontend/fe/invoice.php:130 frontend/fe/invoice2.php:148
+#: frontend/fe/invoice_cd.php:185 frontend/inc/invoice.php:130
+#: frontend/inc/invoice2.php:148 frontend/inc/invoice_cd.php:212
+msgid "THIS INVOICE IS OVERDUE"
+msgstr ""
+
+#: frontend/fe/invoice.php:138 frontend/fe/invoice2.php:155
+#: frontend/inc/invoice.php:138 frontend/inc/invoice2.php:155
+msgid "THIS INVOICE HAS BEEN PAID"
+msgstr ""
+
+#: frontend/fe/invoice.php:144 frontend/inc/invoice.php:144
+msgid "Invoice From:"
+msgstr ""
+
+#: frontend/fe/invoice.php:150 frontend/fe/invoice2.php:137
+#: frontend/fe/projects/project-contract-print.php:84
+#: frontend/fe/projects/project-contract.php:17
+#: frontend/fe/quotes/quote-page.php:16 frontend/fe/quotes/quote-print.php:22
+#: frontend/inc/invoice.php:150 frontend/inc/invoice2.php:137
+#: frontend/inc/projects/project-contract-print.php:84
+#: frontend/inc/projects/project-contract.php:88
+#: frontend/inc/quotes/quote-page.php:23 frontend/inc/quotes/quote-print.php:22
+msgid "Tel:"
+msgstr ""
+
+#: frontend/fe/invoice.php:151 frontend/fe/invoice.php:166
+#: frontend/fe/invoice.php:168
+#: frontend/fe/projects/project-contract-print.php:85
+#: frontend/fe/projects/project-contract.php:18
+#: frontend/fe/quotes/quote-page.php:17 frontend/fe/quotes/quote-print.php:23
+#: frontend/inc/invoice.php:151 frontend/inc/invoice.php:166
+#: frontend/inc/invoice.php:168
+#: frontend/inc/projects/project-contract-print.php:85
+#: frontend/inc/projects/project-contract.php:89
+#: frontend/inc/quotes/quote-page.php:24 frontend/inc/quotes/quote-print.php:23
+msgid "Email:"
+msgstr ""
+
+#: frontend/fe/invoice.php:153 frontend/fe/invoice2.php:162
+#: frontend/fe/invoice3.php:188 frontend/fe/invoice_cd.php:196
+#: frontend/inc/invoice.php:153 frontend/inc/invoice2.php:162
+#: frontend/inc/invoice3.php:180 frontend/inc/invoice_cd.php:223
+msgid "Company Reg Number:"
+msgstr ""
+
+#: frontend/fe/invoice.php:158 frontend/inc/invoice.php:158
+msgid "Invoice To:"
+msgstr ""
+
+#: frontend/fe/invoice.php:160 frontend/inc/invoice.php:160
+msgid "FAO:"
+msgstr ""
+
+#: frontend/fe/invoice.php:173 frontend/fe/invoice.php:176
+#: frontend/fe/invoice2.php:201 frontend/fe/invoice2.php:204
+#: frontend/fe/invoice3.php:177 frontend/fe/invoice3.php:180
+#: frontend/fe/invoice_cd.php:235 frontend/fe/invoice_cd.php:238
+#: frontend/inc/invoice.php:173 frontend/inc/invoice.php:176
+#: frontend/inc/invoice2.php:201 frontend/inc/invoice2.php:204
+#: frontend/inc/invoice3.php:169 frontend/inc/invoice3.php:172
+#: frontend/inc/invoice_cd.php:261 frontend/inc/invoice_cd.php:264
+#, php-format
+msgid "%1$s Reg Number: "
+msgstr ""
+
+#: frontend/fe/invoice.php:254 frontend/fe/invoice.php:257
+#: frontend/fe/invoice2.php:165 frontend/fe/invoice2.php:168
+#: frontend/fe/invoice3.php:191 frontend/fe/invoice3.php:194
+#: frontend/fe/invoice_cd.php:208 frontend/fe/invoice_cd.php:211
+#: frontend/inc/invoice.php:254 frontend/inc/invoice.php:257
+#: frontend/inc/invoice2.php:165 frontend/inc/invoice2.php:168
+#: frontend/inc/invoice3.php:183 frontend/inc/invoice3.php:186
+#: frontend/inc/invoice_cd.php:235 frontend/inc/invoice_cd.php:238
+msgid "Number"
+msgstr ""
+
+#: frontend/fe/invoice.php:260 frontend/inc/invoice.php:260
+msgid "Invoice #"
+msgstr ""
+
+#: frontend/fe/invoice.php:262 frontend/inc/invoice.php:262
+msgid "Project"
+msgstr ""
+
+#: frontend/fe/invoice.php:300 frontend/fe/invoice2.php:278
+#: frontend/fe/invoice3.php:277 frontend/fe/invoice_cd.php:114
+#: frontend/inc/invoice.php:300 frontend/inc/invoice2.php:278
+#: frontend/inc/invoice3.php:270 frontend/inc/invoice_cd.php:141
+msgid "Qty"
+msgstr ""
+
+#: frontend/fe/invoice.php:301 frontend/fe/invoice2.php:279
+#: frontend/fe/invoice3.php:278 frontend/fe/invoice_cd.php:115
+#: frontend/fe/task.php:72 frontend/inc/invoice.php:301
+#: frontend/inc/invoice2.php:279 frontend/inc/invoice3.php:271
+#: frontend/inc/invoice_cd.php:142 frontend/inc/task.php:91
+msgid "Description"
+msgstr ""
+
+#: frontend/fe/invoice.php:302 frontend/fe/invoice2.php:280
+#: frontend/fe/invoice3.php:279 frontend/fe/invoice_cd.php:116
+#: frontend/inc/invoice.php:302 frontend/inc/invoice2.php:280
+#: frontend/inc/invoice3.php:272 frontend/inc/invoice_cd.php:143
+msgid "Rate"
+msgstr ""
+
+#: frontend/fe/invoice.php:303 frontend/fe/invoice2.php:281
+#: frontend/fe/invoice3.php:280 frontend/fe/invoice_cd.php:117
+#: frontend/inc/invoice.php:303 frontend/inc/invoice2.php:281
+#: frontend/inc/invoice3.php:273 frontend/inc/invoice_cd.php:144
+msgid "Total"
+msgstr ""
+
+#: frontend/fe/invoice.php:321 frontend/fe/invoice2.php:299
+#: frontend/fe/invoice3.php:298 frontend/fe/invoice_cd.php:134
+#: frontend/fe/projects/project-invoices-sub.php:144
+#: frontend/inc/invoice.php:321 frontend/inc/invoice2.php:299
+#: frontend/inc/invoice3.php:291 frontend/inc/invoice_cd.php:161
+#: frontend/inc/projects/project-invoices-sub.php:142
+msgid "Subtotal:"
+msgstr ""
+
+#: frontend/fe/invoice.php:321 frontend/fe/invoice.php:343
+#: frontend/fe/invoice2.php:299 frontend/fe/invoice2.php:318
+#: frontend/fe/invoice3.php:298 frontend/fe/invoice3.php:317
+#: frontend/fe/invoice_cd.php:134 frontend/fe/invoice_cd.php:153
+#: frontend/fe/projects/project-invoices-sub.php:158
+#: frontend/fe/projects/project-invoices-sub.php:172
+#: frontend/inc/invoice.php:321 frontend/inc/invoice.php:343
+#: frontend/inc/invoice2.php:299 frontend/inc/invoice2.php:318
+#: frontend/inc/invoice3.php:291 frontend/inc/invoice3.php:310
+#: frontend/inc/invoice_cd.php:161 frontend/inc/invoice_cd.php:180
+#: frontend/inc/projects/project-invoices-sub.php:156
+#: frontend/inc/projects/project-invoices-sub.php:170
+msgid "TOTAL:"
+msgstr ""
+
+#: frontend/fe/invoice.php:349 frontend/fe/invoice2.php:323
+#: frontend/fe/invoice3.php:322 frontend/fe/invoice_cd.php:158
+#: frontend/fe/projects/project-invoices-sub.php:162
+#: frontend/fe/projects/project-invoices-sub.php:173
+#: frontend/inc/invoice.php:349 frontend/inc/invoice2.php:323
+#: frontend/inc/invoice3.php:315 frontend/inc/invoice_cd.php:185
+#: frontend/inc/projects/project-invoices-sub.php:160
+#: frontend/inc/projects/project-invoices-sub.php:171
+msgid "Received:"
+msgstr ""
+
+#: frontend/fe/invoice.php:354 frontend/fe/invoice2.php:327
+#: frontend/fe/invoice3.php:326 frontend/fe/invoice_cd.php:162
+#: frontend/fe/projects/project-invoices-sub.php:165
+#: frontend/fe/projects/project-invoices-sub.php:174
+#: frontend/inc/invoice.php:354 frontend/inc/invoice2.php:327
+#: frontend/inc/invoice3.php:319 frontend/inc/invoice_cd.php:189
+#: frontend/inc/projects/project-invoices-sub.php:163
+#: frontend/inc/projects/project-invoices-sub.php:172
+msgid "Outstanding:"
+msgstr ""
+
+#: frontend/fe/invoice.php:366 frontend/fe/invoice2.php:348
+#: frontend/fe/invoice3.php:344
+#: frontend/fe/projects/project-contract-print.php:369
+#: frontend/fe/projects/project-contract.php:306
+#: frontend/fe/projects/project-summary.php:145
+#: frontend/fe/quotes/quote-page.php:301 frontend/fe/quotes/quote-print.php:303
+#: frontend/fe/subscription.php:32 frontend/fe/support.php:368
+#: frontend/inc/invoice.php:366 frontend/inc/invoice2.php:348
+#: frontend/inc/invoice3.php:337 frontend/inc/invoice_cd.php:434
+#: frontend/inc/projects/project-contract-print.php:369
+#: frontend/inc/projects/project-contract.php:378
+#: frontend/inc/projects/project-summary.php:150
+#: frontend/inc/quotes/quote-page.php:309
+#: frontend/inc/quotes/quote-print.php:303 frontend/inc/subscription.php:48
+#: frontend/inc/support.php:385
+msgid "Access Denied"
+msgstr ""
+
+#: frontend/fe/invoice2.php:170 frontend/fe/invoice3.php:144
+#: frontend/fe/invoice_cd.php:213 frontend/inc/invoice2.php:170
+#: frontend/inc/invoice3.php:136
+msgid "Invoice #:"
+msgstr ""
+
+#: frontend/fe/invoice2.php:179 frontend/fe/invoice3.php:159
+#: frontend/fe/invoice_cd.php:214 frontend/inc/invoice2.php:179
+#: frontend/inc/invoice3.php:151 frontend/inc/invoice_cd.php:240
+msgid "Invoice Date:"
+msgstr ""
+
+#: frontend/fe/invoice2.php:180 frontend/fe/invoice3.php:196
+#: frontend/fe/invoice_cd.php:215 frontend/inc/invoice2.php:180
+#: frontend/inc/invoice3.php:188 frontend/inc/invoice_cd.php:241
+msgid "Due Date:"
+msgstr ""
+
+#: frontend/fe/invoice2.php:189 frontend/fe/invoice3.php:205
+#: frontend/fe/invoice_cd.php:225 frontend/inc/invoice2.php:189
+#: frontend/inc/invoice3.php:198 frontend/inc/invoice_cd.php:251
+msgid "Project:"
+msgstr ""
+
+#: frontend/fe/invoice2.php:194 frontend/fe/invoice3.php:170
+#: frontend/fe/invoice_cd.php:228 frontend/inc/invoice2.php:194
+#: frontend/inc/invoice3.php:162 frontend/inc/invoice_cd.php:254
+msgid "INVOICE TO:"
+msgstr ""
+
+#: frontend/fe/invoice3.php:137 frontend/inc/invoice3.php:129
+msgid "Total:"
+msgstr ""
+
+#: frontend/fe/invoice3.php:337 frontend/inc/invoice3.php:330
+msgid "Tel: "
+msgstr ""
+
+#: frontend/fe/invoice3.php:338 frontend/inc/invoice3.php:331
+msgid "Email: "
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:107 frontend/inc/invoice_cd.php:134
+msgid "Line Items"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:177 frontend/inc/invoice_cd.php:204
+msgid "Invoice Details"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:191 frontend/inc/invoice_cd.php:218
+msgid "Invoice Paid"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:198 frontend/inc/invoice_cd.php:225
+msgid "Invoice Number:"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:331 frontend/inc/invoice_cd.php:357
+msgid "Amount to pay"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:333 frontend/inc/invoice_cd.php:359
+msgid "Update"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:336 frontend/inc/invoice_cd.php:362
+#, php-format
+msgid "Pay %1$s Now"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:340 frontend/inc/invoice_cd.php:366
+msgid "Payment Methods"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:357 frontend/inc/invoice_cd.php:383
+msgid "Pay with Paypal"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:368 frontend/inc/invoice_cd.php:394
+msgid "Pay with Stripe"
+msgstr ""
+
+#: frontend/fe/invoice_cd.php:397 frontend/inc/invoice_cd.php:423
+msgid "View Printable Invoice"
+msgstr ""
+
+#: frontend/fe/login.php:13 frontend/fe/register.php:20
+#: frontend/inc/login.php:53 frontend/inc/register.php:60
+msgid "Password"
+msgstr ""
+
+#: frontend/fe/login.php:14 frontend/inc/login.php:54
+msgid "Log In"
+msgstr ""
+
+#: frontend/fe/login.php:20 frontend/inc/login.php:60
+msgid "Forgotten Password?"
+msgstr ""
+
+#: frontend/fe/login.php:26 frontend/fe/register.php:22
+#: frontend/inc/login.php:66 frontend/inc/register.php:62
+msgid "Create Account"
+msgstr ""
+
+#: frontend/fe/login.php:34 frontend/fe/register.php:37
+#: frontend/fe/reset.php:43 frontend/inc/login.php:74
+#: frontend/inc/register.php:77 frontend/inc/reset.php:74
+msgid "Envato Buyer? Need to Register?"
+msgstr ""
+
+#: frontend/fe/login.php:34 frontend/fe/register.php:37
+#: frontend/fe/reset.php:43 frontend/inc/login.php:74
+#: frontend/inc/register.php:77 frontend/inc/reset.php:74
+msgid "Register Here"
+msgstr ""
+
+#: frontend/fe/projects/project-addbug-sub.php:12
+#: frontend/inc/projects/project-addbug-sub.php:12
+#, php-format
+msgid "Project %1$s - %2$s (Add Bug Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-bugs-sub.php:12
+#: frontend/inc/projects/project-bugs-sub.php:12
+#, php-format
+msgid "Project %1$s - %2$s (Bugs Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:69
+#: frontend/inc/projects/project-contract-print.php:69
+#: frontend/inc/projects/project-contract.php:58
+#, php-format
+msgid "Project %1$s - %2$s (Contract Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:90
+#: frontend/fe/projects/project-contract.php:22
+#: frontend/inc/projects/project-contract-print.php:90
+#: frontend/inc/projects/project-contract.php:94
+msgid "CONTRACT DOCUMENTATION"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:91
+#: frontend/fe/projects/project-contract.php:23
+#: frontend/inc/projects/project-contract-print.php:91
+#: frontend/inc/projects/project-contract.php:95
+msgid "This is an agreement between \"us\""
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:94
+#: frontend/fe/projects/project-contract.php:26
+#: frontend/inc/projects/project-contract-print.php:94
+#: frontend/inc/projects/project-contract.php:98
+msgid "and \"you\""
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:98
+#: frontend/fe/projects/project-contract.php:30
+#: frontend/inc/projects/project-contract-print.php:98
+#: frontend/inc/projects/project-contract.php:102
+msgid "ABOUT THE PROJECT"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:101
+#: frontend/fe/projects/project-contract.php:33
+#: frontend/fe/quotes/quote-page.php:23 frontend/fe/quotes/quote-print.php:29
+#: frontend/inc/projects/project-contract-print.php:101
+#: frontend/inc/projects/project-contract.php:105
+#: frontend/inc/quotes/quote-page.php:30 frontend/inc/quotes/quote-print.php:29
+msgid "Summary"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:107
+#: frontend/fe/projects/project-contract.php:39
+#: frontend/fe/quotes/quote-page.php:29 frontend/fe/quotes/quote-print.php:35
+#: frontend/inc/projects/project-contract-print.php:107
+#: frontend/inc/projects/project-contract.php:111
+#: frontend/inc/quotes/quote-page.php:36 frontend/inc/quotes/quote-print.php:35
+msgid "Project Dates"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:111
+#: frontend/fe/projects/project-contract.php:43
+#: frontend/fe/projects/project-milestones-sub.php:38
+#: frontend/fe/projects/project-milestones-sub.php:80
+#: frontend/fe/quotes/quote-page.php:33 frontend/fe/quotes/quote-print.php:39
+#: frontend/fe/task.php:135
+#: frontend/inc/projects/project-contract-print.php:111
+#: frontend/inc/projects/project-contract.php:115
+#: frontend/inc/projects/project-milestones-sub.php:38
+#: frontend/inc/projects/project-milestones-sub.php:80
+#: frontend/inc/quotes/quote-page.php:40 frontend/inc/quotes/quote-print.php:39
+#: frontend/inc/task.php:154
+msgid "Start Date"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:115
+#: frontend/fe/projects/project-contract.php:47
+#: frontend/fe/quotes/quote-page.php:37 frontend/fe/quotes/quote-print.php:43
+#: frontend/inc/projects/project-contract-print.php:115
+#: frontend/inc/projects/project-contract.php:119
+#: frontend/inc/quotes/quote-page.php:44 frontend/inc/quotes/quote-print.php:43
+msgid "Completion/Launch Date"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:118
+#: frontend/fe/projects/project-contract.php:50
+#: frontend/fe/projects/project-updates-sub.php:78
+#: frontend/fe/quotes/quote-page.php:40 frontend/fe/quotes/quote-print.php:46
+#: frontend/inc/projects/project-contract-print.php:118
+#: frontend/inc/projects/project-contract.php:122
+#: frontend/inc/projects/project-updates-sub.php:78
+#: frontend/inc/quotes/quote-page.php:47 frontend/inc/quotes/quote-print.php:46
+msgid "Milestones"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:133
+#: frontend/fe/projects/project-contract-print.php:253
+#: frontend/fe/projects/project-contract.php:65
+#: frontend/fe/projects/project-contract.php:185
+#: frontend/fe/projects/project-invoices-sub.php:54
+#: frontend/fe/projects/project-milestones-sub.php:78
+#: frontend/fe/quotes/quote-page.php:55 frontend/fe/quotes/quote-page.php:175
+#: frontend/fe/quotes/quote-print.php:61 frontend/fe/quotes/quote-print.php:181
+#: frontend/inc/projects/project-contract-print.php:133
+#: frontend/inc/projects/project-contract-print.php:253
+#: frontend/inc/projects/project-contract.php:137
+#: frontend/inc/projects/project-contract.php:257
+#: frontend/inc/projects/project-invoices-sub.php:54
+#: frontend/inc/projects/project-milestones-sub.php:78
+#: frontend/inc/quotes/quote-page.php:62 frontend/inc/quotes/quote-page.php:182
+#: frontend/inc/quotes/quote-print.php:61
+#: frontend/inc/quotes/quote-print.php:181
+msgid "Milestone"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:139
+#: frontend/fe/projects/project-contract-print.php:181
+#: frontend/fe/projects/project-contract-print.php:225
+#: frontend/fe/projects/project-contract.php:71
+#: frontend/fe/projects/project-contract.php:113
+#: frontend/fe/projects/project-contract.php:157
+#: frontend/fe/quotes/quote-page.php:61 frontend/fe/quotes/quote-page.php:103
+#: frontend/fe/quotes/quote-page.php:147 frontend/fe/quotes/quote-print.php:67
+#: frontend/fe/quotes/quote-print.php:109
+#: frontend/fe/quotes/quote-print.php:153
+#: frontend/inc/projects/project-contract-print.php:139
+#: frontend/inc/projects/project-contract-print.php:181
+#: frontend/inc/projects/project-contract-print.php:225
+#: frontend/inc/projects/project-contract.php:143
+#: frontend/inc/projects/project-contract.php:185
+#: frontend/inc/projects/project-contract.php:229
+#: frontend/inc/quotes/quote-page.php:68 frontend/inc/quotes/quote-page.php:110
+#: frontend/inc/quotes/quote-page.php:154
+#: frontend/inc/quotes/quote-print.php:67
+#: frontend/inc/quotes/quote-print.php:109
+#: frontend/inc/quotes/quote-print.php:153
+msgid "Start Date:"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:142
+#: frontend/fe/projects/project-contract-print.php:184
+#: frontend/fe/projects/project-contract-print.php:228
+#: frontend/fe/projects/project-contract.php:74
+#: frontend/fe/projects/project-contract.php:116
+#: frontend/fe/projects/project-contract.php:160
+#: frontend/fe/quotes/quote-page.php:64 frontend/fe/quotes/quote-page.php:106
+#: frontend/fe/quotes/quote-page.php:150 frontend/fe/quotes/quote-print.php:70
+#: frontend/fe/quotes/quote-print.php:112
+#: frontend/fe/quotes/quote-print.php:156
+#: frontend/inc/projects/project-contract-print.php:142
+#: frontend/inc/projects/project-contract-print.php:184
+#: frontend/inc/projects/project-contract-print.php:228
+#: frontend/inc/projects/project-contract.php:146
+#: frontend/inc/projects/project-contract.php:188
+#: frontend/inc/projects/project-contract.php:232
+#: frontend/inc/quotes/quote-page.php:71 frontend/inc/quotes/quote-page.php:113
+#: frontend/inc/quotes/quote-page.php:157
+#: frontend/inc/quotes/quote-print.php:70
+#: frontend/inc/quotes/quote-print.php:112
+#: frontend/inc/quotes/quote-print.php:156
+msgid "Deadline:"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:178
+#: frontend/fe/projects/project-contract.php:110
+#: frontend/fe/projects/project-files-sub.php:61
+#: frontend/fe/projects/project-milestones-sub.php:159
+#: frontend/fe/quotes/quote-page.php:100 frontend/fe/quotes/quote-print.php:106
+#: frontend/inc/projects/project-contract-print.php:178
+#: frontend/inc/projects/project-contract.php:182
+#: frontend/inc/projects/project-files-sub.php:61
+#: frontend/inc/projects/project-milestones-sub.php:159
+#: frontend/inc/quotes/quote-page.php:107
+#: frontend/inc/quotes/quote-print.php:106
+msgid "Task"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:187
+#: frontend/fe/projects/project-contract-print.php:231
+#: frontend/fe/projects/project-contract.php:119
+#: frontend/fe/projects/project-contract.php:163
+#: frontend/fe/quotes/quote-page.php:109 frontend/fe/quotes/quote-page.php:153
+#: frontend/fe/quotes/quote-print.php:115
+#: frontend/fe/quotes/quote-print.php:159
+#: frontend/inc/projects/project-contract-print.php:187
+#: frontend/inc/projects/project-contract-print.php:231
+#: frontend/inc/projects/project-contract.php:191
+#: frontend/inc/projects/project-contract.php:235
+#: frontend/inc/quotes/quote-page.php:116
+#: frontend/inc/quotes/quote-page.php:160
+#: frontend/inc/quotes/quote-print.php:115
+#: frontend/inc/quotes/quote-print.php:159
+msgid "Est. Time:"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:222
+#: frontend/fe/projects/project-contract.php:154
+#: frontend/fe/projects/project-milestones-sub.php:236
+#: frontend/fe/quotes/quote-page.php:144 frontend/fe/quotes/quote-print.php:150
+#: frontend/inc/projects/project-contract-print.php:222
+#: frontend/inc/projects/project-contract.php:226
+#: frontend/inc/projects/project-milestones-sub.php:236
+#: frontend/inc/quotes/quote-page.php:151
+#: frontend/inc/quotes/quote-print.php:150
+msgid "Subtask"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:249
+#: frontend/fe/projects/project-contract.php:181
+#: frontend/fe/quotes/quote-page.php:171 frontend/fe/quotes/quote-print.php:177
+#: frontend/inc/projects/project-contract-print.php:249
+#: frontend/inc/projects/project-contract.php:253
+#: frontend/inc/quotes/quote-page.php:178
+#: frontend/inc/quotes/quote-print.php:177
+msgid "Cost Breakdown"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:255
+#: frontend/fe/projects/project-contract.php:187
+#: frontend/fe/projects/project-invoices-sub.php:56
+#: frontend/fe/projects/project-milestones-sub.php:32
+#: frontend/fe/quotes/quote-page.php:177 frontend/fe/quotes/quote-print.php:183
+#: frontend/inc/projects/project-contract-print.php:255
+#: frontend/inc/projects/project-contract.php:259
+#: frontend/inc/projects/project-invoices-sub.php:56
+#: frontend/inc/projects/project-milestones-sub.php:32
+#: frontend/inc/quotes/quote-page.php:184
+#: frontend/inc/quotes/quote-print.php:183
+msgid "Estimated Cost"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:257
+#: frontend/fe/projects/project-contract.php:189
+#: frontend/fe/projects/project-invoices-sub.php:59
+#: frontend/fe/projects/project-milestones-sub.php:34
+#: frontend/fe/quotes/quote-page.php:179 frontend/fe/quotes/quote-print.php:185
+#: frontend/inc/projects/project-contract-print.php:257
+#: frontend/inc/projects/project-contract.php:261
+#: frontend/inc/projects/project-invoices-sub.php:59
+#: frontend/inc/projects/project-milestones-sub.php:34
+#: frontend/inc/quotes/quote-page.php:186
+#: frontend/inc/quotes/quote-print.php:185
+msgid "Cost"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:289
+#: frontend/fe/projects/project-contract.php:221
+#: frontend/fe/quotes/quote-page.php:215 frontend/fe/quotes/quote-print.php:221
+#: frontend/inc/projects/project-contract-print.php:289
+#: frontend/inc/projects/project-contract.php:293
+#: frontend/inc/quotes/quote-page.php:222
+#: frontend/inc/quotes/quote-print.php:221
+msgid "Subtotal"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:294
+#: frontend/fe/projects/project-contract-print.php:297
+#: frontend/fe/projects/project-contract.php:226
+#: frontend/fe/projects/project-contract.php:229
+#: frontend/fe/quotes/quote-page.php:220 frontend/fe/quotes/quote-page.php:223
+#: frontend/fe/quotes/quote-print.php:226
+#: frontend/fe/quotes/quote-print.php:229
+#: frontend/inc/projects/project-contract-print.php:294
+#: frontend/inc/projects/project-contract-print.php:297
+#: frontend/inc/projects/project-contract.php:298
+#: frontend/inc/projects/project-contract.php:301
+#: frontend/inc/quotes/quote-page.php:227
+#: frontend/inc/quotes/quote-page.php:230
+#: frontend/inc/quotes/quote-print.php:226
+#: frontend/inc/quotes/quote-print.php:229
+msgid "TOTAL"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:303
+#: frontend/fe/projects/project-contract.php:235
+#: frontend/fe/quotes/quote-page.php:229 frontend/fe/quotes/quote-print.php:235
+#: frontend/inc/projects/project-contract-print.php:303
+#: frontend/inc/projects/project-contract.php:307
+#: frontend/inc/quotes/quote-page.php:236
+#: frontend/inc/quotes/quote-print.php:235
+msgid "NOTE:"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:303
+#: frontend/fe/projects/project-contract.php:235
+#: frontend/fe/quotes/quote-page.php:229 frontend/fe/quotes/quote-print.php:235
+#: frontend/inc/projects/project-contract-print.php:303
+#: frontend/inc/projects/project-contract.php:307
+#: frontend/inc/quotes/quote-page.php:236
+#: frontend/inc/quotes/quote-print.php:235
+msgid ""
+"THIS IS AN ESTIMATE, SO THESE PRICES MAY NOT REFLECT THE FINAL PROJECT COST."
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:305
+#: frontend/fe/projects/project-contract.php:237
+#: frontend/fe/quotes/quote-page.php:231 frontend/fe/quotes/quote-print.php:237
+#: frontend/inc/projects/project-contract-print.php:305
+#: frontend/inc/projects/project-contract.php:309
+#: frontend/inc/quotes/quote-page.php:238
+#: frontend/inc/quotes/quote-print.php:237
+msgid "Payment Plan"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:306
+#: frontend/fe/projects/project-contract.php:238
+#: frontend/fe/quotes/quote-page.php:232 frontend/fe/quotes/quote-print.php:238
+#: frontend/inc/projects/project-contract-print.php:306
+#: frontend/inc/projects/project-contract.php:310
+#: frontend/inc/quotes/quote-page.php:239
+#: frontend/inc/quotes/quote-print.php:238
+msgid "Deposit"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:309
+#: frontend/fe/projects/project-contract.php:241
+#: frontend/inc/projects/project-contract-print.php:309
+#: frontend/inc/projects/project-contract.php:313
+msgid ""
+"We do not require an up-front deposit payment on this project. The full "
+"balance will be due on completion."
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:316
+#: frontend/fe/projects/project-contract.php:248
+#: frontend/fe/quotes/quote-page.php:242 frontend/fe/quotes/quote-print.php:248
+#: frontend/inc/projects/project-contract-print.php:316
+#: frontend/inc/projects/project-contract.php:320
+#: frontend/inc/quotes/quote-page.php:249
+#: frontend/inc/quotes/quote-print.php:248
+#, php-format
+msgid ""
+"We require an initial deposit payment of %1$s percent on this project which "
+"will be invoiced on acceptance."
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:320
+#: frontend/fe/projects/project-contract.php:252
+#: frontend/fe/quotes/quote-page.php:249 frontend/fe/quotes/quote-print.php:255
+#: frontend/inc/projects/project-contract-print.php:320
+#: frontend/inc/projects/project-contract.php:324
+#: frontend/inc/quotes/quote-page.php:256
+#: frontend/inc/quotes/quote-print.php:255
+msgid "TERMS &amp; CONDITIONS"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:342
+#: frontend/fe/projects/project-contract.php:274
+#: frontend/inc/projects/project-contract-print.php:342
+#: frontend/inc/projects/project-contract.php:346
+msgid "CONTRACT ACCEPTANCE"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:348
+#: frontend/fe/projects/project-contract.php:280
+#: frontend/fe/quotes/quote-page.php:276 frontend/fe/quotes/quote-print.php:282
+#: frontend/inc/projects/project-contract-print.php:348
+#: frontend/inc/projects/project-contract.php:352
+#: frontend/inc/quotes/quote-page.php:283
+#: frontend/inc/quotes/quote-print.php:282
+msgid "Enter your name"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:349
+#: frontend/fe/projects/project-contract.php:281
+#: frontend/inc/projects/project-contract-print.php:349
+#: frontend/inc/projects/project-contract.php:353
+msgid "Confirm Contract"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:360
+#: frontend/fe/projects/project-contract.php:292
+#: frontend/inc/projects/project-contract-print.php:360
+#: frontend/inc/projects/project-contract.php:364
+msgid "THIS CONTRACT HAS BEEN CONFIRMED"
+msgstr ""
+
+#: frontend/fe/projects/project-contract-print.php:361
+#: frontend/fe/projects/project-contract.php:293
+#: frontend/inc/projects/project-contract-print.php:361
+#: frontend/inc/projects/project-contract.php:365
+#, php-format
+msgid "Confirmed by %1$s @ %2$s from IP Address %3$s"
+msgstr ""
+
+#: frontend/fe/projects/project-contract.php:8
+#: frontend/fe/quotes/quote-page.php:8
+#: frontend/inc/projects/project-contract.php:80
+#: frontend/inc/quotes/quote-page.php:15
+msgid "VIEW PRINTABLE VERSION"
+msgstr ""
+
+#: frontend/fe/projects/project-contract.php:309
+#: frontend/fe/quotes/quote-page.php:304 frontend/fe/subscription.php:35
+#: frontend/inc/invoice_cd.php:437
+#: frontend/inc/projects/project-contract.php:381
+#: frontend/inc/projects/project-summary.php:153
+#: frontend/inc/quotes/quote-page.php:312 frontend/inc/subscription.php:51
+#: frontend/inc/support.php:388
+msgid "Cheatin' uh? We can't let you see this item because it's not yours"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:12
+#: frontend/inc/projects/project-files-sub.php:12
+#, php-format
+msgid "Project %1$s - %2$s (Files Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:22
+#: frontend/inc/projects/project-files-sub.php:22
+msgid "Project Files"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:46
+#: frontend/inc/projects/project-files-sub.php:46
+msgid "There are no files uploaded to this project."
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:49
+#: frontend/inc/projects/project-files-sub.php:49
+msgid "Related Task"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:62
+#: frontend/fe/projects/project-milestones-sub.php:38
+#: frontend/inc/projects/project-files-sub.php:62
+#: frontend/inc/projects/project-milestones-sub.php:38
+msgid "Type"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:63
+#: frontend/inc/projects/project-files-sub.php:63
+msgid "Added"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:64
+#: frontend/inc/projects/project-files-sub.php:64
+msgid "Added By"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:83
+#: frontend/inc/projects/project-files-sub.php:83
+msgid "There are no tasks available to add this file to."
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:85
+#: frontend/inc/projects/project-files-sub.php:85
+msgid "Choose a Task"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:112
+#: frontend/inc/projects/project-files-sub.php:112
+msgid "TASK"
+msgstr ""
+
+#: frontend/fe/projects/project-files-sub.php:132
+#: frontend/inc/projects/project-files-sub.php:132
+msgid "SUBTASK"
+msgstr ""
+
+#: frontend/fe/projects/project-info-sub.php:12
+#: frontend/inc/projects/project-info-sub.php:12
+#, php-format
+msgid "Project %1$s - %2$s (Info Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-info-sub.php:30
+#: frontend/inc/projects/project-info-sub.php:30
+msgid "No general project information has been added."
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:12
+#: frontend/inc/projects/project-invoices-sub.php:12
+#, php-format
+msgid "Project %1$s - %2$s (Invoices Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:22
+#: frontend/inc/projects/project-invoices-sub.php:22
+msgid "Ongoing Costs"
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:57
+#: frontend/fe/projects/project-invoices-sub.php:60
+#: frontend/inc/projects/project-invoices-sub.php:57
+#: frontend/inc/projects/project-invoices-sub.php:60
+msgid "Final Cost"
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:103
+#: frontend/inc/projects/project-invoices-sub.php:101
+msgid "PENDING"
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:179
+#: frontend/inc/projects/project-invoices-sub.php:177
+msgid ""
+"You have not added any milestones. Please add at least one milestone to "
+"enable this section"
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:189
+#: frontend/inc/projects/project-invoices-sub.php:187
+msgid "Project Invoices"
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:237
+#: frontend/inc/projects/project-invoices-sub.php:235
+msgid "NOT SENT"
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:239
+#: frontend/inc/projects/project-invoices-sub.php:237
+msgid "SENT"
+msgstr ""
+
+#: frontend/fe/projects/project-invoices-sub.php:257
+#: frontend/inc/projects/project-invoices-sub.php:255
+msgid "There are no invoices for this project"
+msgstr ""
+
+#: frontend/fe/projects/project-messages-sub.php:12
+#: frontend/inc/projects/project-messages-sub.php:12
+#, php-format
+msgid "Project %1$s - %2$s (Messages Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-messages-sub.php:22
+#: frontend/inc/projects/project-messages-sub.php:22
+msgid "Project Messages"
+msgstr ""
+
+#: frontend/fe/projects/project-messages-sub.php:28
+#: frontend/inc/projects/project-messages-sub.php:28
+msgid "No messages to show..."
+msgstr ""
+
+#: frontend/fe/projects/project-messages-sub.php:70
+#: frontend/fe/projects/project-messages-sub.php:75
+#: frontend/fe/projects/project-messages-sub.php:83
+#: frontend/inc/projects/project-messages-sub.php:70
+#: frontend/inc/projects/project-messages-sub.php:75
+#: frontend/inc/projects/project-messages-sub.php:83
+msgid "Send Message"
+msgstr ""
+
+#: frontend/fe/projects/project-messages-sub.php:79 frontend/fe/support.php:328
+#: frontend/inc/projects/project-messages-sub.php:79
+#: frontend/inc/support.php:340
+msgid "Message"
+msgstr ""
+
+#: frontend/fe/projects/project-milestones-sub.php:12
+#: frontend/inc/projects/project-milestones-sub.php:12
+#, php-format
+msgid "Project %1$s - %2$s (Milestones Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-milestones-sub.php:26
+#: frontend/inc/projects/project-milestones-sub.php:26
+msgid "There are no Milestones or tasks on this project"
+msgstr ""
+
+#: frontend/fe/projects/project-milestones-sub.php:38
+#: frontend/fe/projects/project-milestones-sub.php:81
+#: frontend/fe/projects/project-milestones-sub.php:161
+#: frontend/fe/projects/project-milestones-sub.php:238 frontend/fe/task.php:143
+#: frontend/inc/projects/project-milestones-sub.php:38
+#: frontend/inc/projects/project-milestones-sub.php:81
+#: frontend/inc/projects/project-milestones-sub.php:161
+#: frontend/inc/projects/project-milestones-sub.php:238
+#: frontend/inc/task.php:162
+msgid "Deadline"
+msgstr ""
+
+#: frontend/fe/projects/project-milestones-sub.php:38
+#: frontend/inc/projects/project-milestones-sub.php:38
+msgid "Progress / Status"
+msgstr ""
+
+#: frontend/fe/projects/project-milestones-sub.php:66
+#: frontend/fe/projects/project-milestones-sub.php:147
+#: frontend/fe/projects/project-milestones-sub.php:224
+#: frontend/fe/projects/project-updates-sub.php:46
+#: frontend/fe/projects/project-updates-sub.php:53
+#: frontend/fe/projects/project-updates-sub.php:60
+#: frontend/fe/projects/project-updates-sub.php:65
+#: frontend/fe/projects/project-updates-sub.php:70
+#: frontend/fe/projects/project-updates-sub.php:92
+#: frontend/fe/projects/project-updates-sub.php:101
+#: frontend/fe/projects/project-updates-sub.php:107
+#: frontend/fe/projects/project-updates-sub.php:112
+#: frontend/fe/projects/project-updates-sub.php:117 frontend/fe/task.php:111
+#: frontend/inc/projects/project-milestones-sub.php:66
+#: frontend/inc/projects/project-milestones-sub.php:147
+#: frontend/inc/projects/project-milestones-sub.php:224
+#: frontend/inc/projects/project-updates-sub.php:46
+#: frontend/inc/projects/project-updates-sub.php:53
+#: frontend/inc/projects/project-updates-sub.php:60
+#: frontend/inc/projects/project-updates-sub.php:65
+#: frontend/inc/projects/project-updates-sub.php:70
+#: frontend/inc/projects/project-updates-sub.php:92
+#: frontend/inc/projects/project-updates-sub.php:101
+#: frontend/inc/projects/project-updates-sub.php:107
+#: frontend/inc/projects/project-updates-sub.php:112
+#: frontend/inc/projects/project-updates-sub.php:117 frontend/inc/task.php:130
+msgid "Pending"
+msgstr ""
+
+#: frontend/fe/projects/project-milestones-sub.php:72
+#: frontend/fe/projects/project-milestones-sub.php:155
+#: frontend/fe/projects/project-milestones-sub.php:232
+#: frontend/fe/projects/project-updates-sub.php:46
+#: frontend/fe/projects/project-updates-sub.php:53
+#: frontend/fe/projects/project-updates-sub.php:60
+#: frontend/fe/projects/project-updates-sub.php:65
+#: frontend/fe/projects/project-updates-sub.php:70
+#: frontend/fe/projects/project-updates-sub.php:92
+#: frontend/fe/projects/project-updates-sub.php:101
+#: frontend/fe/projects/project-updates-sub.php:107
+#: frontend/fe/projects/project-updates-sub.php:112
+#: frontend/fe/projects/project-updates-sub.php:117 frontend/fe/task.php:113
+#: frontend/inc/projects/project-milestones-sub.php:72
+#: frontend/inc/projects/project-milestones-sub.php:155
+#: frontend/inc/projects/project-milestones-sub.php:232
+#: frontend/inc/projects/project-updates-sub.php:46
+#: frontend/inc/projects/project-updates-sub.php:53
+#: frontend/inc/projects/project-updates-sub.php:60
+#: frontend/inc/projects/project-updates-sub.php:65
+#: frontend/inc/projects/project-updates-sub.php:70
+#: frontend/inc/projects/project-updates-sub.php:92
+#: frontend/inc/projects/project-updates-sub.php:101
+#: frontend/inc/projects/project-updates-sub.php:107
+#: frontend/inc/projects/project-updates-sub.php:112
+#: frontend/inc/projects/project-updates-sub.php:117 frontend/inc/task.php:132
+msgid "Complete"
+msgstr ""
+
+#: frontend/fe/projects/project-summary.php:58
+#: frontend/inc/projects/project-summary.php:58
+msgid "Signed Off / Completed"
+msgstr ""
+
+#: frontend/fe/projects/project-summary.php:61
+#: frontend/fe/projects/project-updates-sub.php:55
+#: frontend/inc/projects/project-summary.php:61
+#: frontend/inc/projects/project-updates-sub.php:55
+msgid "Contract Signed"
+msgstr ""
+
+#: frontend/fe/projects/project-summary.php:64
+#: frontend/fe/projects/project-updates-sub.php:50
+#: frontend/inc/projects/project-summary.php:64
+#: frontend/inc/projects/project-updates-sub.php:50
+msgid "Contract Sent"
+msgstr ""
+
+#: frontend/fe/projects/project-summary.php:66
+#: frontend/inc/projects/project-summary.php:66
+msgid "Contract Not Sent"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:12
+#: frontend/inc/projects/project-updates-sub.php:12
+#, php-format
+msgid "Project %1$s - %2$s (Update / Status Page)"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:27
+#: frontend/inc/projects/project-updates-sub.php:27
+msgid "Open Tasks: "
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:28
+#: frontend/inc/projects/project-updates-sub.php:28
+msgid "Complete: "
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:29
+#: frontend/inc/projects/project-updates-sub.php:29
+msgid "Days to Launch!"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:37
+#: frontend/inc/projects/project-updates-sub.php:37
+msgid "Project Status"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:44
+#: frontend/inc/projects/project-updates-sub.php:44
+msgid "Prerequisites"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:62
+#: frontend/inc/projects/project-updates-sub.php:62
+msgid "Deposit Invoice Created"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:67
+#: frontend/inc/projects/project-updates-sub.php:67
+msgid "Deposit Invoice Sent"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:72
+#: frontend/inc/projects/project-updates-sub.php:72
+msgid "Deposit Paid"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:99
+#: frontend/inc/projects/project-updates-sub.php:99
+msgid "Completion"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:103
+#: frontend/inc/projects/project-updates-sub.php:103
+msgid "Signed Off / Launched"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:109
+#: frontend/inc/projects/project-updates-sub.php:109
+msgid "Completion Invoice Created"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:114
+#: frontend/inc/projects/project-updates-sub.php:114
+msgid "Completion Invoice Sent"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:119
+#: frontend/inc/projects/project-updates-sub.php:119
+msgid "Completion Invoice Paid"
+msgstr ""
+
+#: frontend/fe/projects/project-updates-sub.php:131
+#: frontend/inc/client-dashboard/dashboard.php:444
+#: frontend/inc/projects/project-updates-sub.php:131
+msgid "Project Updates"
+msgstr ""
+
+#: frontend/fe/quote.php:62 frontend/inc/quote.php:62
+#, php-format
+msgid "Quote %1$s - %2$s"
+msgstr ""
+
+#: frontend/fe/quotes/quote-page.php:235 frontend/fe/quotes/quote-print.php:241
+#: frontend/inc/quotes/quote-page.php:242
+#: frontend/inc/quotes/quote-print.php:241
+msgid "We do not require an up-front deposit payment on this project."
+msgstr ""
+
+#: frontend/fe/quotes/quote-page.php:266 frontend/fe/quotes/quote-print.php:272
+#: frontend/inc/quotes/quote-page.php:273
+#: frontend/inc/quotes/quote-print.php:272
+msgid "Acceptance"
+msgstr ""
+
+#: frontend/fe/quotes/quote-page.php:277 frontend/fe/quotes/quote-print.php:283
+#: frontend/inc/quotes/quote-page.php:284
+#: frontend/inc/quotes/quote-print.php:283
+msgid "Accept"
+msgstr ""
+
+#: frontend/fe/quotes/quote-page.php:288 frontend/fe/quotes/quote-print.php:294
+#: frontend/inc/quotes/quote-page.php:295
+#: frontend/inc/quotes/quote-print.php:294
+#, php-format
+msgid "THIS %1$s HAS BEEN ACCEPTED"
+msgstr ""
+
+#: frontend/fe/quotes/quote-page.php:289 frontend/fe/quotes/quote-print.php:295
+#: frontend/inc/quotes/quote-page.php:296
+#: frontend/inc/quotes/quote-print.php:295
+#, php-format
+msgid "Accepted by %1$s @ %2$s from IP Address %3$s"
+msgstr ""
+
+#: frontend/fe/register.php:14 frontend/inc/register.php:54
+msgid "Name"
+msgstr ""
+
+#: frontend/fe/register.php:21 frontend/fe/reset.php:27
+#: frontend/inc/register.php:61 frontend/inc/reset.php:58
+msgid "Repeat Password"
+msgstr ""
+
+#: frontend/fe/register.php:28 frontend/fe/reset.php:20
+#: frontend/fe/reset.php:34 frontend/inc/register.php:68
+#: frontend/inc/reset.php:51 frontend/inc/reset.php:65
+msgid "Back to Login"
+msgstr ""
+
+#: frontend/fe/register.php:40 frontend/inc/register.php:80
+msgid "Registration is Disabled"
+msgstr ""
+
+#: frontend/fe/subscription.php:15 frontend/inc/subscription.php:15
+#, php-format
+msgid "Subscription - %1$s"
+msgstr ""
+
+#: frontend/fe/support.php:22 frontend/inc/support.php:16
+#, php-format
+msgid "Support Ticket - %1$s"
+msgstr ""
+
+#: frontend/fe/support.php:80 frontend/inc/support.php:91
+msgid "Ticket Details"
+msgstr ""
+
+#: frontend/fe/support.php:96 frontend/inc/support.php:107
+msgid "Ticket Created"
+msgstr ""
+
+#: frontend/fe/support.php:104 frontend/inc/support.php:115
+msgid "Ticket Priority"
+msgstr ""
+
+#: frontend/fe/support.php:108 frontend/inc/support.php:119
+msgid "Ticket Status"
+msgstr ""
+
+#: frontend/fe/support.php:119 frontend/inc/support.php:130
+msgid "Ticket Updates"
+msgstr ""
+
+#: frontend/fe/support.php:206 frontend/fe/support.php:332
+#: frontend/inc/support.php:218 frontend/inc/support.php:344
+msgid "Update Ticket"
+msgstr ""
+
+#: frontend/fe/support.php:212 frontend/inc/support.php:224
+msgid "Ticket Status:"
+msgstr ""
+
+#: frontend/fe/support.php:341 frontend/inc/support.php:353
+msgid "Ticket Files"
+msgstr ""
+
+#: frontend/fe/support.php:347 frontend/inc/support.php:359
+msgid "There are no files uploaded to this ticket."
+msgstr ""
+
+#: frontend/fe/support.php:357 frontend/fe/task.php:406
+#: frontend/inc/support.php:369 frontend/inc/task.php:436
+msgid "Uploaded on"
+msgstr ""
+
+#: frontend/fe/support.php:357 frontend/fe/task.php:406
+#: frontend/inc/support.php:369 frontend/inc/task.php:436
+msgid "by"
+msgstr ""
+
+#: frontend/fe/task.php:16 frontend/inc/task.php:21
+#, php-format
+msgid "Task - %1$s"
+msgstr ""
+
+#: frontend/fe/task.php:33 frontend/inc/task.php:52
+msgid "Task Details"
+msgstr ""
+
+#: frontend/fe/task.php:78 frontend/inc/task.php:97
+msgid "Assigned To"
+msgstr ""
+
+#: frontend/fe/task.php:85 frontend/inc/task.php:104
+msgid "Team Members"
+msgstr ""
+
+#: frontend/fe/task.php:94 frontend/inc/task.php:113
+msgid "Client"
+msgstr ""
+
+#: frontend/fe/task.php:110 frontend/inc/task.php:129
+msgid "Task Status"
+msgstr ""
+
+#: frontend/fe/task.php:122 frontend/inc/task.php:141
+msgid "Task Priority"
+msgstr ""
+
+#: frontend/fe/task.php:152 frontend/inc/task.php:171
+msgid "Estimated Time (Hours)"
+msgstr ""
+
+#: frontend/fe/task.php:160 frontend/inc/task.php:179
+msgid "Percentage Complete"
+msgstr ""
+
+#: frontend/fe/task.php:172 frontend/inc/task.php:191
+msgid "Task Messages"
+msgstr ""
+
+#: frontend/fe/task.php:179 frontend/inc/task.php:198
+msgid "No messages to show"
+msgstr ""
+
+#: frontend/fe/task.php:221 frontend/fe/task.php:322 frontend/inc/task.php:248
+#: frontend/inc/task.php:352
+msgid "Update Task"
+msgstr ""
+
+#: frontend/fe/task.php:320 frontend/inc/task.php:350
+msgid "Add Message"
+msgstr ""
+
+#: frontend/fe/task.php:332 frontend/inc/task.php:362
+msgid "Time Entries"
+msgstr ""
+
+#: frontend/fe/task.php:355 frontend/inc/task.php:385
+msgid "REMOVE"
+msgstr ""
+
+#: frontend/fe/task.php:359 frontend/inc/task.php:389
+msgid "HOURS"
+msgstr ""
+
+#: frontend/fe/task.php:377 frontend/inc/task.php:407
+msgid "hours"
+msgstr ""
+
+#: frontend/fe/task.php:377 frontend/inc/task.php:407
+msgid "minutes"
+msgstr ""
+
+#: frontend/fe/task.php:379 frontend/inc/task.php:409
+msgid "This task does not have any time assigned to it"
+msgstr ""
+
+#: frontend/fe/task.php:389 frontend/inc/task.php:419
+msgid "Task Files"
+msgstr ""
+
+#: frontend/fe/task.php:396 frontend/inc/task.php:426
+msgid "There are no files uploaded to this task."
+msgstr ""
+
+#: frontend/inc/client-dashboard.php:52
+#: frontend/inc/client-dashboard/quotes-page.php:19
+#: frontend/inc/quotes/quote-page.php:3 frontend/inc/sidebar.php:69
+msgid "Quotes / Estimates"
+msgstr ""
+
+#: frontend/inc/client-dashboard.php:68
+msgid "Settings"
+msgstr ""
+
+#: frontend/inc/client-dashboard.php:78
+#: frontend/inc/client-dashboard/add-envato-purchase.php:5
+msgid "My Envato Items"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:6
+msgid "Profile"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:51
+msgid "My Details"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:58
+msgid "Company Details"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:161
+msgid "Change Photo"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:162
+msgid "Upload new Photo"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:170
+msgid "New Photo Preview"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:189
+msgid "Current Photo"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:195
+msgid "Remove Photo"
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:227
+msgid "Disable all bug notification emails."
+msgstr ""
+
+#: frontend/inc/client-dashboard/client-settings.php:229
+msgid "Only notify me if a bug has a new comment added."
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:71
+msgid "Outstanding Invoices"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:127
+msgid "Overdue"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:129
+msgid "On Receipt"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:139
+msgid "Paid"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:153
+msgid "You do not have any outstanding invoices"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:167
+msgid "Open Projects"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:177
+msgid "Links"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:287
+msgid "You do not have any open projects"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:300
+msgid "Open Quotes / Estimates"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:352
+msgid "You do not have any open quotes"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:366
+msgid "Open Support Tickets"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:429
+msgid "You do not have any open support tickets"
+msgstr ""
+
+#: frontend/inc/client-dashboard/dashboard.php:520
+msgid "There are no project updates to show."
+msgstr ""
+
+#: frontend/inc/client-dashboard/invoice-page.php:19
+msgid "Client Dashboard Invoices Page"
+msgstr ""
+
+#: frontend/inc/client-dashboard/messages.php:371
+#: frontend/inc/client-dashboard/messages.php:380
+msgid "No Results"
+msgstr ""
+
+#: frontend/inc/client-dashboard/messages.php:372
+#: frontend/inc/client-dashboard/messages.php:381
+msgid "Searching"
+msgstr ""
+
+#: frontend/inc/client-dashboard/projects-page.php:10
+msgid "Client Dashboard Projects Page"
+msgstr ""
+
+#: frontend/inc/client-dashboard/quote-form.php:19
+msgid "Client Dashboard Quote Form"
+msgstr ""
+
+#: frontend/inc/client-dashboard/ticket-page.php:35
+msgid "Client Dashboard Support Tickets Page"
+msgstr ""
+
+#: frontend/inc/client-dashboard/ticket-page.php:91
+msgid "No open support tickets found..."
+msgstr ""
+
+#: frontend/inc/client-dashboard/ticket-page.php:93
+msgid "No resolved support tickets found..."
+msgstr ""
+
+#: frontend/inc/header.php:72
+msgid "Menu"
+msgstr ""
+
+#: frontend/inc/header.php:73
+msgid "Close Menu"
+msgstr ""
+
+#: frontend/inc/invoice_cd.php:424
+msgid "Download PDF Invoice"
+msgstr ""
+
+#: frontend/inc/sidebar.php:63
+msgid "MENU"
+msgstr ""
+
+#: frontend/inc/sidebar.php:87
+msgid "ENVATO"
+msgstr ""
+
+#: frontend/inc/sidebar.php:88
+msgid "My Items"
+msgstr ""
+
+#: frontend/inc/sidebar.php:97 frontend/inc/sidebar.php:121
+msgid "PROJECT MENU"
+msgstr ""
+
+#: frontend/inc/subscription.php:32
+msgid "Subscriptions"
+msgstr ""
+
+#: frontend/inc/support.php:139
+msgid "There are no updates on this ticket."
+msgstr ""
+
+#: functions/frontend/frontend_functions.php:114
+msgid "Client Dashboard Sidebar"
+msgstr ""
+
+#: functions/frontend/frontend_functions.php:207
+#, php-format
+msgid "Uploaded file: %1$s"
+msgstr ""
+
+#: functions/frontend/frontend_functions.php:230
+#, php-format
+msgid "File \"%1$s\" uploaded to task: %2$s"
+msgstr ""
+
+#: shortcodes/frontend_lead_form.php:6
+msgid "You have not added a Form ID to the shortcode!"
+msgstr ""
+
+#: shortcodes/frontend_lead_form.php:12
+msgid ""
+"This form has been configured to use a Gravity Form, but you have not "
+"selected a Gravity Form to use."
+msgstr ""
+
+#: shortcodes/frontend_lead_form.php:26 shortcodes/frontend_lead_form.php:126
+#: shortcodes/frontend_quote.php:16 shortcodes/frontend_quote.php:152
+#: shortcodes/frontend_register.php:7 shortcodes/frontend_register.php:61
+msgid "I am a Human (SPAM check)"
+msgstr ""
+
+#: shortcodes/frontend_lead_form.php:101
+msgid "Submit"
+msgstr ""
+
+#: shortcodes/frontend_lead_form.php:109
+msgid "Form ID does not exist!"
+msgstr ""
+
+#: shortcodes/frontend_quote.php:14 shortcodes/frontend_quote.php:30
+#: shortcodes/frontend_register.php:5 shortcodes/frontend_register.php:19
+msgid "Address"
+msgstr ""
+
+#: shortcodes/frontend_quote.php:15 shortcodes/frontend_quote.php:34
+#: shortcodes/frontend_register.php:6 shortcodes/frontend_register.php:23
+msgid "Postcode"
+msgstr ""
+
+#: shortcodes/frontend_quote.php:22 shortcodes/frontend_register.php:11
+msgid "Full Name"
+msgstr ""
+
+#: shortcodes/frontend_quote.php:120 shortcodes/frontend_register.php:40
+msgid "I have read and accept the Terms & Conditions"
+msgstr ""
+
+#: shortcodes/frontend_quote.php:126 shortcodes/frontend_register.php:46
+msgid "I have read and accept the Privacy Policy"
+msgstr ""
+
+#: shortcodes/frontend_register.php:50
+msgid "Register"
+msgstr ""
+
+#~ msgid "Login Successful. Redirecting to your dashboard."
+#~ msgstr ""

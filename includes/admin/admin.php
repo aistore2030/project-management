@@ -1,0 +1,13 @@
+<?php
+require_once('dashboard/dashboard.php');
+require_once('calendar/calendar.php');
+require_once('fields/fields.php');
+require_once('messages/messages.php');
+require_once('messages/messages_admin.php');
+require_once('tasks/tasks.php');
+require_once('tasks/admintasks.php');
+require_once('tickets/tickets.php');
+require_once('capabilities/capabilities.php');
+require_once('profile/profile.php');
+require_once('recinvoices/recinvoices.php');
+require_once('files/files.php');
